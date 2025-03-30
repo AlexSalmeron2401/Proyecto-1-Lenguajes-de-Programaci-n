@@ -1,0 +1,6 @@
+{
+    "users": [
+        { "email": "admin@escuela.edu", "password": "admin123", "partner": "admin" },
+        { "email": "user@escuela.edu", "password": "user123", "partner": "visor" }
+    ]
+}
