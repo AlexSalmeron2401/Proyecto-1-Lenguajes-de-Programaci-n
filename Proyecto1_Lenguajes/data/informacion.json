@@ -1,0 +1,36 @@
+{
+    "informacion": [
+        {
+            "anio": 2000,
+            "semestre": 1,
+            "cursos": [
+                {
+                    "nombre": "a",
+                    "id": "a1",
+                    "tipo": "matematico",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0
+                }
+            ]
+        },
+        {
+            "anio": 2001,
+            "semestre": 2,
+            "cursos": [
+                {
+                    "nombre": "v",
+                    "id": "c1",
+                    "tipo": "matematico",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0
+                }
+            ]
+        }
+    ]
+}
