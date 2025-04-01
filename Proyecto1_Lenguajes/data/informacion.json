@@ -1,22 +1,6 @@
 {
     "informacion": [
         {
-            "anio": 2000,
-            "semestre": 1,
-            "cursos": [
-                {
-                    "nombre": "a",
-                    "id": "a1",
-                    "tipo": "matematico",
-                    "nota_examen1": 100.0,
-                    "nota_examen2": 100.0,
-                    "nota_examen3": 100.0,
-                    "nota_tareas": 100.0,
-                    "nota_total": 100.0
-                }
-            ]
-        },
-        {
             "anio": 2001,
             "semestre": 2,
             "cursos": [
@@ -27,6 +11,54 @@
                     "nota_examen1": 100.0,
                     "nota_examen2": 100.0,
                     "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0
+                }
+            ]
+        },
+        {
+            "anio": 2022,
+            "semestre": 2,
+            "cursos": [
+                {
+                    "nombre": "Ingles 2",
+                    "id": "I0102",
+                    "tipo": "ingles",
+                    "nota_examen1": 80.0,
+                    "nota_examen2": 80.0,
+                    "nota_laboratorios": 80.0,
+                    "nota_tareas": 80.0,
+                    "nota_total": 80.0
+                }
+            ]
+        },
+        {
+            "anio": 2022,
+            "semestre": 2,
+            "cursos": [
+                {
+                    "nombre": "Mate General",
+                    "id": "MA0101",
+                    "tipo": "matematico",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0
+                }
+            ]
+        },
+        {
+            "anio": 2021,
+            "semestre": 1,
+            "cursos": [
+                {
+                    "nombre": "Ingles Basico",
+                    "id": "I2020",
+                    "tipo": "ingles",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_laboratorios": 100.0,
                     "nota_tareas": 100.0,
                     "nota_total": 100.0
                 }
