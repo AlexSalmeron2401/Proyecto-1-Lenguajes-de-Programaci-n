@@ -1,24 +1,29 @@
 import os
 import json
 from PyQt5.QtWidgets import (
-    QDialog, QVBoxLayout, QFormLayout, QComboBox, QLineEdit,
-    QPushButton, QListWidget, QMessageBox
+    QDialog, QVBoxLayout, QHBoxLayout, QFormLayout, QLineEdit,
+    QPushButton, QListWidget, QMessageBox, QComboBox
 )
+from PyQt5.QtCore import Qt
 
 class VentanaVerCursos(QDialog):
-    def __init__(self):
+    def __init__(self, profesor_email):
         super().__init__()
         self.setWindowTitle("Ver Cursos Impartidos")
-        self.setGeometry(250, 250, 500, 400)
+        self.setFixedSize(500, 400)
+        self.profesor_email = profesor_email
+        self.init_ui()
+        self.apply_styles()
+    
+    def init_ui(self):
         layout = QVBoxLayout()
         
-        # En lugar de QLineEdit para año, usamos un QComboBox que se llena con los años disponibles
+        # Formulario para seleccionar año y semestre, basado en el profesor
         form_layout = QFormLayout()
         self.combo_anio = QComboBox()
-        self.load_anios()  # Método que carga los años desde el archivo JSON
+        self.load_anios()  # Carga los años disponibles del profesor desde usuarios.json
         form_layout.addRow("Año:", self.combo_anio)
         
-        # Para el semestre, un combo box con las opciones "1" y "2"
         self.combo_semestre = QComboBox()
         self.combo_semestre.addItems(["1", "2"])
         form_layout.addRow("Semestre:", self.combo_semestre)
@@ -35,27 +40,70 @@ class VentanaVerCursos(QDialog):
         self.lista_cursos.itemDoubleClicked.connect(self.ver_estudiantes)
         layout.addWidget(self.lista_cursos)
         
-        # Botón adicional para ver estudiantes del curso seleccionado
+        # Botón para ver estudiantes (función no implementada)
         self.btn_ver_est = QPushButton("Ver Estudiantes")
         self.btn_ver_est.clicked.connect(self.ver_estudiantes)
         layout.addWidget(self.btn_ver_est)
         
         self.setLayout(layout)
     
+    def apply_styles(self):
+        self.setStyleSheet("""
+            QDialog {
+                background-color: #F4F7F6;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+            QFormLayout QLabel {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                color: #333;
+            }
+            QComboBox {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 4px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #fff;
+            }
+            QListWidget {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #ffffff;
+            }
+            QPushButton {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 8px 16px;
+                background-color: #3498DB;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+            QPushButton:hover {
+                background-color: #2980B9;
+            }
+        """)
+    
     def load_anios(self):
-        """Carga los años únicos en los que hay cursos desde data/informacion.json y los agrega al combo_anio."""
-        path = os.path.join("data", "informacion.json")
+        """Carga los años únicos en los que el profesor tiene cursos desde usuarios.json."""
+        path = os.path.join("data", "usuarios.json")
         years = set()
         if os.path.exists(path):
-            with open(path, "r", encoding="utf-8") as f:
-                try:
+            try:
+                with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    for entry in data.get("informacion", []):
-                        year = entry.get("anio")
-                        if year:
-                            years.add(year)
-                except json.JSONDecodeError:
-                    pass
+                    for user in data.get("users", []):
+                        if user.get("email") == self.profesor_email and user.get("tipo") == "profesor":
+                            for bloque in user.get("anos", []):
+                                year = bloque.get("anio")
+                                if year:
+                                    years.add(year)
+            except json.JSONDecodeError:
+                pass
         years = sorted(years)
         self.combo_anio.clear()
         for y in years:
@@ -69,67 +117,36 @@ class VentanaVerCursos(QDialog):
             QMessageBox.warning(self, "Error", "Seleccione un año válido.")
             return
         semestre = int(self.combo_semestre.currentText())
-        path = os.path.join("data", "informacion.json")
-        if not os.path.exists(path):
-            QMessageBox.information(self, "Info", "No hay información guardada.")
-            return
-        with open(path, "r", encoding="utf-8") as f:
+        
+        path = os.path.join("data", "usuarios.json")
+        cursos_list = []
+        if os.path.exists(path):
             try:
-                existing = json.load(f)
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    # Buscar el profesor y recorrer su lista de "anos"
+                    for user in data.get("users", []):
+                        if user.get("email") == self.profesor_email and user.get("tipo") == "profesor":
+                            for bloque in user.get("anos", []):
+                                if bloque.get("anio") == anio and bloque.get("semestre") == semestre:
+                                    for curso in bloque.get("cursos", []):
+                                        item_text = f"{curso.get('id')} - {curso.get('nombre')} ({curso.get('tipo')})"
+                                        cursos_list.append(item_text)
+                            break
             except json.JSONDecodeError:
                 QMessageBox.warning(self, "Error", "Error al leer el archivo JSON.")
                 return
         
         self.lista_cursos.clear()
-        found = False
-        for entry in existing.get("informacion", []):
-            if entry.get("anio") == anio and entry.get("semestre") == semestre:
-                cursos = entry.get("cursos", [])
-                if cursos:
-                    for curso in cursos:
-                        item_text = f"{curso.get('id')} - {curso.get('nombre')} ({curso.get('tipo')})"
-                        self.lista_cursos.addItem(item_text)
-                    found = True
-        if not found:
+        if cursos_list:
+            for item in cursos_list:
+                self.lista_cursos.addItem(item)
+        else:
             QMessageBox.information(self, "Info", "No se encontró información para el año y semestre seleccionados.")
     
     def ver_estudiantes(self, item=None):
         """
-        Al seleccionar (o haciendo doble clic en) un curso,
-        se muestran los estudiantes que tienen asignado ese curso.
+        Función para ver estudiantes asignados a un curso.
+        Dado que esta funcionalidad aún no se implementa, se mostrará un mensaje informativo.
         """
-        if item is None:
-            item = self.lista_cursos.currentItem()
-        if not item:
-            QMessageBox.warning(self, "Error", "Seleccione un curso para ver estudiantes.")
-            return
-        
-        # Se espera que el texto esté en el formato: "ID - Nombre (tipo)"
-        course_text = item.text()
-        course_id = course_text.split(" - ")[0]
-        
-        # Leer el archivo de estudiantes
-        path = os.path.join("data", "estudiantes.json")
-        if not os.path.exists(path):
-            QMessageBox.information(self, "Info", "No hay información de estudiantes guardada.")
-            return
-        
-        with open(path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                QMessageBox.warning(self, "Error", "Error al leer estudiantes.json.")
-                return
-        
-        estudiantes = data.get("estudiantes", [])
-        matched = []
-        for est in estudiantes:
-            for curso in est.get("cursos", []):
-                if curso.get("id") == course_id:
-                    matched.append(est.get("nombre", "Desconocido"))
-                    break
-        if matched:
-            msg = "Estudiantes que cursaron este curso:\n" + "\n".join(matched)
-            QMessageBox.information(self, "Estudiantes", msg)
-        else:
-            QMessageBox.information(self, "Estudiantes", "No se encontraron estudiantes para este curso.")
+        QMessageBox.information(self, "Estudiantes", "Función todavía no implementada para ver estudiantes.")

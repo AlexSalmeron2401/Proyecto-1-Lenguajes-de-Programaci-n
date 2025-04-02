@@ -2,115 +2,85 @@ import os
 import json
 from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QFormLayout,
-    QLineEdit, QListWidget, QPushButton, QMessageBox, QLabel, QComboBox, QStackedWidget
+    QLineEdit, QListWidget, QPushButton, QMessageBox, QComboBox
 )
 # Importa las clases definidas en tu módulo OOP (ajusta la ruta según corresponda)
 from frontend.clases_informacion import CursoMatematico, CursoCarrera, CursoIngles, CursoOtros
 
-# Diálogo para agregar un curso detallado
 class VentanaAgregarCursoDetallado(QDialog):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Agregar Curso Detallado")
-        self.setGeometry(250, 250, 400, 300)
-        
-        self.layout = QVBoxLayout()
-        
-        # Formulario de datos comunes: Tipo, Nombre e ID
+        self.setWindowTitle("Agregar Curso")
+        self.setFixedSize(400, 200)
+        self.init_ui()
+        self.apply_styles()
+    
+    def init_ui(self):
+        layout = QVBoxLayout()
         form_layout = QFormLayout()
+        
+        # Selección del tipo de curso
         self.combo_tipo = QComboBox()
         self.combo_tipo.addItems(["Matemático", "Carrera", "Inglés", "Otros"])
         form_layout.addRow("Tipo de Curso:", self.combo_tipo)
         
+        # Campo para el nombre del curso
         self.input_nombre = QLineEdit()
+        self.input_nombre.setPlaceholderText("Ingrese el nombre del curso")
         form_layout.addRow("Nombre del Curso:", self.input_nombre)
         
+        # Campo para el ID del curso
         self.input_id = QLineEdit()
+        self.input_id.setPlaceholderText("Ingrese el ID del curso")
         form_layout.addRow("ID del Curso:", self.input_id)
         
-        self.layout.addLayout(form_layout)
-        
-        # Área para ingresar campos específicos, usando un QStackedWidget
-        self.stacked = QStackedWidget()
-        
-        # --- Para Curso Matemático ---
-        self.widget_matematico = QDialog()
-        mat_layout = QFormLayout()
-        self.input_mat_ex1 = QLineEdit()
-        mat_layout.addRow("Nota Examen 1:", self.input_mat_ex1)
-        self.input_mat_ex2 = QLineEdit()
-        mat_layout.addRow("Nota Examen 2:", self.input_mat_ex2)
-        self.input_mat_ex3 = QLineEdit()
-        mat_layout.addRow("Nota Examen 3:", self.input_mat_ex3)
-        self.input_mat_tareas = QLineEdit()
-        mat_layout.addRow("Nota Tareas:", self.input_mat_tareas)
-        self.input_mat_total = QLineEdit()
-        mat_layout.addRow("Nota Total:", self.input_mat_total)
-        self.widget_matematico.setLayout(mat_layout)
-        self.stacked.addWidget(self.widget_matematico)
-        
-        # --- Para Curso Carrera ---
-        self.widget_carrera = QDialog()
-        car_layout = QFormLayout()
-        self.input_car_proy1 = QLineEdit()
-        car_layout.addRow("Nota Proyecto 1:", self.input_car_proy1)
-        self.input_car_proy2 = QLineEdit()
-        car_layout.addRow("Nota Proyecto 2:", self.input_car_proy2)
-        self.input_car_lab = QLineEdit()
-        car_layout.addRow("Nota Laboratorios:", self.input_car_lab)
-        self.input_car_total = QLineEdit()
-        car_layout.addRow("Nota Total:", self.input_car_total)
-        self.widget_carrera.setLayout(car_layout)
-        self.stacked.addWidget(self.widget_carrera)
-        
-        # --- Para Curso Inglés ---
-        self.widget_ingles = QDialog()
-        ing_layout = QFormLayout()
-        self.input_ing_ex1 = QLineEdit()
-        ing_layout.addRow("Nota Examen 1:", self.input_ing_ex1)
-        self.input_ing_ex2 = QLineEdit()
-        ing_layout.addRow("Nota Examen 2:", self.input_ing_ex2)
-        self.input_ing_lab = QLineEdit()
-        ing_layout.addRow("Nota Laboratorios:", self.input_ing_lab)
-        self.input_ing_tareas = QLineEdit()
-        ing_layout.addRow("Nota Tareas:", self.input_ing_tareas)
-        self.input_ing_total = QLineEdit()
-        ing_layout.addRow("Nota Total:", self.input_ing_total)
-        self.widget_ingles.setLayout(ing_layout)
-        self.stacked.addWidget(self.widget_ingles)
-        
-        # --- Para Curso Otros ---
-        self.widget_otros = QDialog()
-        otros_layout = QFormLayout()
-        self.input_otros_trab1 = QLineEdit()
-        otros_layout.addRow("Nota Trabajo 1:", self.input_otros_trab1)
-        self.input_otros_trab2 = QLineEdit()
-        otros_layout.addRow("Nota Trabajo 2:", self.input_otros_trab2)
-        self.input_otros_trab3 = QLineEdit()
-        otros_layout.addRow("Nota Trabajo 3:", self.input_otros_trab3)
-        self.input_otros_tareas = QLineEdit()
-        otros_layout.addRow("Notas Tareas:", self.input_otros_tareas)
-        self.input_otros_total = QLineEdit()
-        otros_layout.addRow("Nota Total:", self.input_otros_total)
-        self.widget_otros.setLayout(otros_layout)
-        self.stacked.addWidget(self.widget_otros)
-        
-        self.layout.addWidget(self.stacked)
-        
-        # Conecta el cambio en el combo para actualizar el stacked widget
-        self.combo_tipo.currentIndexChanged.connect(self.stacked.setCurrentIndex)
+        layout.addLayout(form_layout)
         
         # Botones de Aceptar y Cancelar
-        botones_layout = QHBoxLayout()
+        btn_layout = QHBoxLayout()
         btn_ok = QPushButton("Aceptar")
         btn_ok.clicked.connect(self.aceptar)
-        botones_layout.addWidget(btn_ok)
+        btn_layout.addWidget(btn_ok)
         btn_cancel = QPushButton("Cancelar")
         btn_cancel.clicked.connect(self.reject)
-        botones_layout.addWidget(btn_cancel)
-        self.layout.addLayout(botones_layout)
+        btn_layout.addWidget(btn_cancel)
+        layout.addLayout(btn_layout)
         
-        self.setLayout(self.layout)
+        self.setLayout(layout)
+    
+    def apply_styles(self):
+        self.setStyleSheet("""
+            QDialog {
+                background-color: #ffffff;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+            QFormLayout QLabel {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                color: #333;
+            }
+            QLineEdit {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f9f9f9;
+            }
+            QPushButton {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 8px 16px;
+                background-color: #3498DB;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+            QPushButton:hover {
+                background-color: #2980B9;
+            }
+        """)
     
     def aceptar(self):
         nombre = self.input_nombre.text().strip()
@@ -118,51 +88,33 @@ class VentanaAgregarCursoDetallado(QDialog):
         if not nombre or not id_curso:
             QMessageBox.warning(self, "Error", "Nombre e ID son obligatorios.")
             return
+        
         tipo_index = self.combo_tipo.currentIndex()
         try:
+            # Asignamos 0.0 a todas las notas, ya que se ingresarán por estudiante posteriormente.
             if tipo_index == 0:  # Matemático
-                nota_ex1 = float(self.input_mat_ex1.text().strip())
-                nota_ex2 = float(self.input_mat_ex2.text().strip())
-                nota_ex3 = float(self.input_mat_ex3.text().strip())
-                nota_tareas = float(self.input_mat_tareas.text().strip())
-                nota_total = float(self.input_mat_total.text().strip())
                 self.curso = CursoMatematico(
                     nombre=nombre, id=id_curso,
-                    nota_examen1=nota_ex1, nota_examen2=nota_ex2, nota_examen3=nota_ex3,
-                    nota_tareas=nota_tareas, nota_total=nota_total
+                    nota_examen1=0.0, nota_examen2=0.0, nota_examen3=0.0,
+                    nota_tareas=0.0, nota_total=0.0
                 )
             elif tipo_index == 1:  # Carrera
-                nota_proy1 = float(self.input_car_proy1.text().strip())
-                nota_proy2 = float(self.input_car_proy2.text().strip())
-                nota_lab = float(self.input_car_lab.text().strip())
-                nota_total = float(self.input_car_total.text().strip())
                 self.curso = CursoCarrera(
                     nombre=nombre, id=id_curso,
-                    nota_proyecto1=nota_proy1, nota_proyecto2=nota_proy2,
-                    nota_laboratorios=nota_lab, nota_total=nota_total
+                    nota_proyecto1=0.0, nota_proyecto2=0.0,
+                    nota_laboratorios=0.0, nota_total=0.0
                 )
             elif tipo_index == 2:  # Inglés
-                nota_ex1 = float(self.input_ing_ex1.text().strip())
-                nota_ex2 = float(self.input_ing_ex2.text().strip())
-                nota_lab = float(self.input_ing_lab.text().strip())
-                nota_tareas = float(self.input_ing_tareas.text().strip())
-                nota_total = float(self.input_ing_total.text().strip())
                 self.curso = CursoIngles(
                     nombre=nombre, id=id_curso,
-                    nota_examen1=nota_ex1, nota_examen2=nota_ex2,
-                    nota_laboratorios=nota_lab, nota_tareas=nota_tareas,
-                    nota_total=nota_total
+                    nota_examen1=0.0, nota_examen2=0.0,
+                    nota_laboratorios=0.0, nota_tareas=0.0, nota_total=0.0
                 )
             elif tipo_index == 3:  # Otros
-                nota_trab1 = float(self.input_otros_trab1.text().strip())
-                nota_trab2 = float(self.input_otros_trab2.text().strip())
-                nota_trab3 = float(self.input_otros_trab3.text().strip())
-                notas_tareas = float(self.input_otros_tareas.text().strip())
-                nota_total = float(self.input_otros_total.text().strip())
                 self.curso = CursoOtros(
                     nombre=nombre, id=id_curso,
-                    nota_trabajo1=nota_trab1, nota_trabajo2=nota_trab2, nota_trabajo3=nota_trab3,
-                    notas_tareas=notas_tareas, nota_total=nota_total
+                    nota_trabajo1=0.0, nota_trabajo2=0.0, nota_trabajo3=0.0,
+                    notas_tareas=0.0, nota_total=0.0
                 )
             else:
                 raise ValueError("Tipo de curso no reconocido.")
@@ -175,15 +127,21 @@ class VentanaAgregarCursoDetallado(QDialog):
         """Retorna el objeto curso creado."""
         return self.curso
 
-# Ventana principal para agregar información por año (y semestre)
 class VentanaAgregarDatos(QDialog):
-    def __init__(self):
+    """
+    Este diálogo permite al profesor ingresar el año, semestre y la lista de cursos impartidos.
+    La información se actualizará en el archivo "data/usuarios.json" dentro del registro del profesor.
+    """
+    def __init__(self, profesor_email):
         super().__init__()
-        self.setWindowTitle("Agregar Información - Por Año")
-        self.setGeometry(200, 200, 500, 400)
-        
+        self.setWindowTitle("Agregar Cursos - Por Año")
+        self.setFixedSize(500, 400)
+        self.profesor_email = profesor_email  # Para identificar el registro del profesor
         self.cursos_detallados = []  # Lista de objetos Curso (detallados)
-        
+        self.init_ui()
+        self.apply_styles()
+    
+    def init_ui(self):
         layout = QVBoxLayout()
         
         # Formulario para ingresar el año y seleccionar el semestre
@@ -199,6 +157,7 @@ class VentanaAgregarDatos(QDialog):
         layout.addLayout(form_layout)
         
         # Lista para mostrar los cursos detallados agregados
+        from PyQt5.QtWidgets import QListWidget
         self.lista_cursos = QListWidget()
         layout.addWidget(self.lista_cursos)
         
@@ -213,17 +172,65 @@ class VentanaAgregarDatos(QDialog):
         layout.addWidget(btn_borrar_curso)
         
         # Botones de Aceptar y Cancelar
-        botones_layout = QHBoxLayout()
+        btn_layout = QHBoxLayout()
         btn_ok = QPushButton("Aceptar")
         btn_ok.clicked.connect(self.aceptar)
-        botones_layout.addWidget(btn_ok)
-        
+        btn_layout.addWidget(btn_ok)
         btn_cancel = QPushButton("Cancelar")
         btn_cancel.clicked.connect(self.reject)
-        botones_layout.addWidget(btn_cancel)
-        layout.addLayout(botones_layout)
+        btn_layout.addWidget(btn_cancel)
+        layout.addLayout(btn_layout)
         
         self.setLayout(layout)
+    
+    def apply_styles(self):
+        self.setStyleSheet("""
+            QDialog {
+                background-color: #ffffff;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+            QFormLayout QLabel {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                color: #333;
+            }
+            QLineEdit {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f9f9f9;
+            }
+            QComboBox {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 4px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f9f9f9;
+            }
+            QListWidget {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #ffffff;
+            }
+            QPushButton {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 12pt;
+                padding: 8px 16px;
+                background-color: #3498DB;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+            QPushButton:hover {
+                background-color: #2980B9;
+            }
+        """)
     
     def agregar_curso_detallado(self):
         dialog = VentanaAgregarCursoDetallado()
@@ -247,7 +254,7 @@ class VentanaAgregarDatos(QDialog):
             QMessageBox.warning(self, "Error", "Debe ingresar un año.")
             return
         if not self.cursos_detallados:
-            QMessageBox.warning(self, "Error", "Debe agregar al menos un curso detallado.")
+            QMessageBox.warning(self, "Error", "Debe agregar al menos un curso.")
             return
         
         try:
@@ -257,32 +264,61 @@ class VentanaAgregarDatos(QDialog):
             return
         
         self.semestre = int(self.combo_semestre.currentText())
-        self.write_json()
+        # Actualizamos el archivo "data/usuarios.json"
+        self.write_usuario_json()
         self.accept()
     
     def get_data(self):
-        """Retorna un diccionario con la información del año, semestre y los cursos detallados."""
+        """Retorna la información del año, semestre y cursos detallados."""
         return {
             "anio": self.anio,
             "semestre": self.semestre,
             "cursos": [curso.to_dict() for curso in self.cursos_detallados]
         }
     
-    def write_json(self):
-        """Escribe la información en data/informacion.json."""
-        data_to_save = self.get_data()
-        path = os.path.join("data", "informacion.json")
+    def write_usuario_json(self):
+        """Actualiza el archivo data/usuarios.json agregando la información de cursos al profesor identificado.
+        Si ya existe un bloque para el mismo año y semestre, se actualiza ese bloque.
+        """
+        data_to_save = self.get_data()  # Ejemplo: { "anio": 2023, "semestre": 1, "cursos": [...] }
+        path = os.path.join("data", "usuarios.json")
         
         if os.path.exists(path):
             with open(path, "r", encoding="utf-8") as f:
                 try:
-                    existing = json.load(f)
+                    usuarios_data = json.load(f)
                 except json.JSONDecodeError:
-                    existing = {"informacion": []}
+                    usuarios_data = {"users": []}
         else:
-            existing = {"informacion": []}
+            usuarios_data = {"users": []}
         
-        existing["informacion"].append(data_to_save)
+        # Buscar el usuario profesor con el email proporcionado
+        profesor_encontrado = False
+        for user in usuarios_data["users"]:
+            if user.get("email") == self.profesor_email and user.get("tipo") == "profesor":
+                profesor_encontrado = True
+                # Asegurarse de que exista la clave "anos"
+                if "anos" not in user or not isinstance(user["anos"], list):
+                    user["anos"] = []
+                # Buscamos si ya existe un bloque para el mismo año y semestre
+                bloque_existente = None
+                for bloque in user["anos"]:
+                    if bloque.get("anio") == self.anio and bloque.get("semestre") == self.semestre:
+                        bloque_existente = bloque
+                        break
+                if bloque_existente:
+                    # Si existe, se agregan los cursos nuevos a la lista existente
+                    cursos_existentes = bloque_existente.get("cursos", [])
+                    nuevos_cursos = [curso.to_dict() for curso in self.cursos_detallados]
+                    bloque_existente["cursos"] = cursos_existentes + nuevos_cursos
+                else:
+                    # Si no existe, se crea un nuevo bloque
+                    user["anos"].append(data_to_save)
+                break
+        
+        if not profesor_encontrado:
+            QMessageBox.warning(self, "Error", "No se encontró el profesor en usuarios.json.")
+            return
         
         with open(path, "w", encoding="utf-8") as f:
-            json.dump(existing, f, indent=4, ensure_ascii=False)
+            json.dump(usuarios_data, f, indent=4, ensure_ascii=False)

@@ -6,15 +6,56 @@
             "id": "2019",
             "email": "a@admin.es",
             "password": "123",
-            "anos": []
+            "anos": [
+                {
+                    "anio": 2000,
+                    "semestre": 1,
+                    "cursos": [
+                        {
+                            "nombre": "Mate General",
+                            "id": "MA0102",
+                            "tipo": "matematico",
+                            "nota_examen1": 0.0,
+                            "nota_examen2": 0.0,
+                            "nota_examen3": 0.0,
+                            "nota_tareas": 0.0,
+                            "nota_total": 0.0
+                        },
+                        {
+                            "nombre": "IO",
+                            "id": "IC0108",
+                            "tipo": "matematico",
+                            "nota_examen1": 0.0,
+                            "nota_examen2": 0.0,
+                            "nota_examen3": 0.0,
+                            "nota_tareas": 0.0,
+                            "nota_total": 0.0
+                        }
+                    ]
+                }
+            ]
         },
         {
             "tipo": "estudiante",
-            "nombre": "Alex",
+            "nombre": "Fabian",
             "id": "2019",
             "email": "b@estu.es",
             "password": "234",
-            "cursos_cursados": []
+            "cursos_cursados": [
+                {
+                    "anio": 2000,
+                    "id": "MA0102",
+                    "nombre": "Mate General",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0,
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "profe": "a@admin.es"
+                }
+            ]
         },
         {
             "tipo": "profesor",
@@ -23,6 +64,28 @@
             "email": "c@admin.es",
             "password": "123",
             "anos": []
+        },
+        {
+            "tipo": "estudiante",
+            "nombre": "Kenny",
+            "id": "2022",
+            "email": "d@estu.es",
+            "password": "123",
+            "cursos_cursados": [
+                {
+                    "anio": 2000,
+                    "id": "MA0102",
+                    "nombre": "Mate General",
+                    "nota_examen1": 80.0,
+                    "nota_examen2": 80.0,
+                    "nota_examen3": 80.0,
+                    "nota_tareas": 10.0,
+                    "nota_total": 62.5,
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "profe": "a@admin.es"
+                }
+            ]
         }
     ]
 }

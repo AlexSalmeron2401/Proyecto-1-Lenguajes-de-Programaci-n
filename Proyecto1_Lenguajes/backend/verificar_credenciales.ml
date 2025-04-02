@@ -1,11 +1,6 @@
 (* verificar_credenciales.ml *)
 open Yojson.Basic.Util
 
-let cwd = Sys.getcwd ()
-
-let credenciales_file = Filename.concat cwd "data/credenciales.json"
-let usuarios_file = Filename.concat cwd "data/usuarios.json"
-
 (* Lee el archivo JSON y devuelve la lista de usuarios *)
 let leer_usuarios archivo =
   try
@@ -31,13 +26,14 @@ let verificar_login credenciales usuarios =
         ) usuarios
     ) credenciales
 
-(* Extrae de forma segura el valor del campo "tipo" *)
+(* Función para extraer de forma segura el valor del campo "tipo" *)
 let extraer_tipo usuario =
-  match usuario |> member "tipo" with
-  | `String s -> s
-  | _ -> "desconocido"
+  match usuario |> member "tipo" |> to_string_option with
+  | Some s -> s
+  | None -> "desconocido"
 
-(* Obtiene el rol del primer usuario que coincida con las credenciales *)
+(* Obtiene el rol y el nombre del primer usuario que coincida con las credenciales,
+   devolviendo una cadena en el formato "rol:nombre" *)
 let obtener_partner credenciales usuarios =
   let rec aux creds =
     match creds with
@@ -52,22 +48,28 @@ let obtener_partner credenciales usuarios =
                 let upassword = u |> member "password" |> to_string in
                 email = uemail && password = upassword
               ) usuarios in
-          Some (extraer_tipo usuario)
+          let tipo = extraer_tipo usuario in
+          let nombre =
+            try usuario |> member "nombre" |> to_string with _ -> "Sin nombre"
+          in
+          Some (tipo ^ ":" ^ nombre)
         with Not_found -> aux rest
   in
   aux credenciales
 
 (* Main *)
 let () =
+  let credenciales_file = "data/credenciales.json" in
+  let usuarios_file = "data/usuarios.json" in
+
   let credenciales = leer_usuarios credenciales_file in
   let usuarios = leer_usuarios usuarios_file in
 
   if verificar_login credenciales usuarios then
     match obtener_partner credenciales usuarios with
-    | Some rol ->
-        Printf.printf "Partner: %s\n" rol
+    | Some info ->
+        Printf.printf "Partner: %s\n" info
     | None ->
         Printf.printf "No se encontró el rol para las credenciales.\n"
   else
     Printf.printf "Login fallido: credenciales incorrectas.\n"
-

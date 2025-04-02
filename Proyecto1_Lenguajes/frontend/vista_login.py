@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import (
     QDialog, QLineEdit, QPushButton, QVBoxLayout, QLabel,
     QMessageBox, QFormLayout, QHBoxLayout
 )
-from PyQt5.QtCore import Qt
 
 # Importamos las ventanas de administración y visor
 from frontend.vista_admins import VentanaPrincipalAdmin
@@ -18,17 +17,11 @@ class VentanaLogin(QDialog):
         self.setFixedSize(400, 300)
         self.init_ui()
         self.apply_styles()
-
+    
     def init_ui(self):
-        # Crear layout principal con margen y espaciado
         layout = QVBoxLayout()
-        layout.setContentsMargins(20, 20, 20, 20)
-        layout.setSpacing(15)
         
-        # Layout del formulario
         form_layout = QFormLayout()
-        form_layout.setSpacing(10)
-        
         self.email_input = QLineEdit()
         self.email_input.setPlaceholderText("Ingrese su correo")
         form_layout.addRow("Correo electrónico:", self.email_input)
@@ -40,7 +33,6 @@ class VentanaLogin(QDialog):
         
         layout.addLayout(form_layout)
         
-        # Botones de acción
         btn_layout = QHBoxLayout()
         self.login_button = QPushButton("Iniciar sesión")
         self.login_button.clicked.connect(self.login)
@@ -51,64 +43,64 @@ class VentanaLogin(QDialog):
         btn_layout.addWidget(self.registro_button)
         
         layout.addLayout(btn_layout)
-        
         self.setLayout(layout)
     
     def apply_styles(self):
-        # Hoja de estilo para darle un aspecto moderno
         self.setStyleSheet("""
             QDialog {
-                background-color: #127575;
+                background-color: #f7f7f7;
             }
             QLabel {
                 font-size: 12pt;
-                color: #ffffff;
+                color: #333;
             }
             QLineEdit {
                 font-size: 12pt;
                 padding: 6px;
                 border: 1px solid #ccc;
                 border-radius: 4px;
-                background-color: #fff;
             }
             QPushButton {
                 font-size: 12pt;
-                padding: 8px 12px;
-                background-color: #5cb85c;
+                padding: 8px;
+                background-color: #0078d7;
                 color: white;
                 border: none;
                 border-radius: 4px;
             }
             QPushButton:hover {
-                background-color: #4cae4c;
+                background-color: #005a9e;
             }
         """)
     
     def login(self):
-        # Obtener y limpiar las credenciales
         email = self.email_input.text().strip()
         password = self.password_input.text().strip()
         
-        # Guardar las credenciales en data/credenciales.json para que OCaml las lea
         self.guardar_credenciales(email, password)
         
-        # Ejecutar el binario OCaml y obtener el rol (se espera "profesor" o "estudiante")
-        rol = self.ejecutar_ocaml()
-        
-        if rol:
-            # Según el rol, se abre la ventana correspondiente:
+        # Ejecutar OCaml para obtener la información en formato "rol:nombre"
+        info = self.ejecutar_ocaml()
+        if info:
+            # Se espera que info tenga el formato "rol:nombre"
+            parts = info.split(":")
+            if len(parts) == 2:
+                rol, nombre = parts[0].strip(), parts[1].strip()
+            else:
+                rol = info.strip()
+                nombre = ""
             if rol.lower() == "profesor":
-                self.ventana_principal = VentanaPrincipalAdmin(rol)
+                self.ventana_principal = VentanaPrincipalAdmin(nombre)
             elif rol.lower() == "estudiante":
-                self.ventana_principal = VentanaPrincipalVisor(rol)
+                self.ventana_principal = VentanaPrincipalVisor(nombre)
             else:
                 QMessageBox.warning(self, "Error", f"Rol desconocido: {rol}")
                 return
             
             self.ventana_principal.show()
-            self.close()  # Cierra la ventana de login
+            self.close()
         else:
-            QMessageBox.warning(self, "Error", "Login fallido: credenciales incorrectas.")    
+            QMessageBox.warning(self, "Error", "Login fallido: credenciales incorrectas.")
     
     def guardar_credenciales(self, email, password):
         os.makedirs("data", exist_ok=True)
@@ -118,7 +110,6 @@ class VentanaLogin(QDialog):
     
     def ejecutar_ocaml(self):
         try:
-            # Construir la ruta al ejecutable OCaml compilado (ajusta la ruta según corresponda)
             ruta_backend = os.path.abspath(os.path.join(os.path.dirname(__file__), "../backend"))
             ejecutable = os.path.join(ruta_backend, "verificar_credenciales")
             
@@ -129,13 +120,12 @@ class VentanaLogin(QDialog):
                 return None
             else:
                 output = result.stdout
-                rol = None
-                # Se busca la línea que comience con "Partner:" y se extrae el rol
+                info = None
                 for line in output.splitlines():
                     if line.startswith("Partner:"):
-                        rol = line.split("Partner:")[1].strip()
+                        info = line.split("Partner:")[1].strip()
                         break
-                return rol
+                return info
         except Exception as e:
             print(f"Error al ejecutar OCaml: {e}")
             return None
