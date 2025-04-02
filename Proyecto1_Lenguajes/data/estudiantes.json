@@ -1,0 +1,76 @@
+{
+    "estudiantes": [
+        {
+            "nombre": "Alex",
+            "id": "2019",
+            "cursos": [
+                {
+                    "anio": 2022,
+                    "id": "I0102",
+                    "nombre": "Ingles 2",
+                    "nota_examen1": 80.0,
+                    "nota_examen2": 80.0,
+                    "nota_laboratorios": 80.0,
+                    "nota_tareas": 80.0,
+                    "nota_total": 80.0,
+                    "semestre": 2,
+                    "tipo": "ingles"
+                }
+            ]
+        },
+        {
+            "nombre": "Fabian",
+            "id": "2022",
+            "cursos": [
+                {
+                    "anio": 2022,
+                    "id": "I0102",
+                    "nombre": "Ingles 2",
+                    "nota_examen1": 80.0,
+                    "nota_examen2": 80.0,
+                    "nota_laboratorios": 80.0,
+                    "nota_tareas": 80.0,
+                    "nota_total": 80.0,
+                    "semestre": 2,
+                    "tipo": "ingles"
+                }
+            ]
+        },
+        {
+            "nombre": "Marta",
+            "id": "1998",
+            "cursos": [
+                {
+                    "anio": 2000,
+                    "id": "a1",
+                    "nombre": "a",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0,
+                    "semestre": 1,
+                    "tipo": "matematico"
+                }
+            ]
+        },
+        {
+            "nombre": "Byron",
+            "id": "2022",
+            "cursos": [
+                {
+                    "anio": 2001,
+                    "id": "c1",
+                    "nombre": "v",
+                    "nota_examen1": 100.0,
+                    "nota_examen2": 100.0,
+                    "nota_examen3": 100.0,
+                    "nota_tareas": 100.0,
+                    "nota_total": 100.0,
+                    "semestre": 2,
+                    "tipo": "matematico"
+                }
+            ]
+        }
+    ]
+}

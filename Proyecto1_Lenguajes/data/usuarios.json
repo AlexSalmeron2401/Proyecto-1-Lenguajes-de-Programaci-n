@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "tipo": "profesor",
+            "nombre": "Alex",
+            "id": "2019",
+            "email": "a@admin.es",
+            "password": "123",
+            "anos": []
+        },
+        {
+            "tipo": "estudiante",
+            "nombre": "Alex",
+            "id": "2019",
+            "email": "b@estu.es",
+            "password": "234",
+            "cursos_cursados": []
+        },
+        {
+            "tipo": "profesor",
+            "nombre": "Byron",
+            "id": "2022",
+            "email": "c@admin.es",
+            "password": "123",
+            "anos": []
+        }
+    ]
+}
