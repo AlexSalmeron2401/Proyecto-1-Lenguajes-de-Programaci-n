@@ -148,14 +148,16 @@ class VentanaPrincipalAdmin(QWidget):
         self.show()
     
     def abrir_editar_estudiantes(self):
+        profesor_email = self.obtener_profesor_email()
         self.hide()
-        self.editarEst = VentanaEditarEstudiantes()
+        self.editarEst = VentanaEditarEstudiantes(profesor_email)
         self.editarEst.exec_()
         self.show()
     
     def abrir_ver_estudiantes(self):
+        profesor_email = self.obtener_profesor_email()
         self.hide()
-        self.verEstCursos = VentanaVerEstudiantesCursos()
+        self.verEstCursos = VentanaVerEstudiantesCursos(profesor_email)
         self.verEstCursos.exec_()
         self.show()
     

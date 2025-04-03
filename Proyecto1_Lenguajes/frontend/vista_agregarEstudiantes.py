@@ -14,7 +14,7 @@ class VentanaAgregarEstudiantes(QDialog):
         """
         super().__init__()
         self.setWindowTitle("Asignar Curso a Estudiante")
-        self.setFixedSize(650, 600)
+        self.setFixedSize(650, 720)
         self.profesor_email = profesor_email
         self.cursos_asignados = []  # Lista de cursos asignados (cada uno es un dict con notas)
         self.cursos_info = []       # Lista de cursos disponibles, extraídos del registro del profesor
