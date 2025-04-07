@@ -5,10 +5,12 @@ from PyQt5.QtWidgets import (
     QDialog, QLineEdit, QPushButton, QVBoxLayout, QLabel,
     QMessageBox, QFormLayout, QHBoxLayout
 )
+from PyQt5.QtCore import Qt
 
-# Importamos las ventanas de administración y visor
+# Importamos las ventanas principales para cada rol.
 from frontend.vista_admins import VentanaPrincipalAdmin
 from frontend.vista_visores import VentanaPrincipalVisor
+from frontend.vista_programador import VentanaProgramador
 
 class VentanaLogin(QDialog):
     def __init__(self):
@@ -37,10 +39,6 @@ class VentanaLogin(QDialog):
         self.login_button = QPushButton("Iniciar sesión")
         self.login_button.clicked.connect(self.login)
         btn_layout.addWidget(self.login_button)
-        
-        self.registro_button = QPushButton("Registrarse")
-        self.registro_button.clicked.connect(self.abrir_registro)
-        btn_layout.addWidget(self.registro_button)
         
         layout.addLayout(btn_layout)
         self.setLayout(layout)
@@ -82,17 +80,19 @@ class VentanaLogin(QDialog):
         # Ejecutar OCaml para obtener la información en formato "rol:nombre"
         info = self.ejecutar_ocaml()
         if info:
-            # Se espera que info tenga el formato "rol:nombre"
             parts = info.split(":")
             if len(parts) == 2:
                 rol, nombre = parts[0].strip(), parts[1].strip()
             else:
                 rol = info.strip()
                 nombre = ""
+            
             if rol.lower() == "profesor":
                 self.ventana_principal = VentanaPrincipalAdmin(nombre)
             elif rol.lower() == "estudiante":
                 self.ventana_principal = VentanaPrincipalVisor(nombre)
+            elif rol.lower() == "programador":
+                self.ventana_principal = VentanaProgramador(nombre)
             else:
                 QMessageBox.warning(self, "Error", f"Rol desconocido: {rol}")
                 return
@@ -129,9 +129,4 @@ class VentanaLogin(QDialog):
         except Exception as e:
             print(f"Error al ejecutar OCaml: {e}")
             return None
-    
-    def abrir_registro(self):
-        from frontend.vista_registro import VentanaRegistro
-        self.registro = VentanaRegistro()
-        if self.registro.exec_() == QDialog.Accepted:
-            QMessageBox.information(self, "Registro", "Registro completado. Ahora inicie sesión.")
+

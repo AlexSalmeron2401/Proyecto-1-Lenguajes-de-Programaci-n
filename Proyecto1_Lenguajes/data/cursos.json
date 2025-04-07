@@ -1,0 +1,25 @@
+{
+    "cursos": [
+        {
+            "id": "MA0101",
+            "nombre": "Mate General",
+            "tipo": "matematico",
+            "anio": 2022,
+            "semestre": 1
+        },
+        {
+            "id": "Mate Discreta",
+            "nombre": "MA0102",
+            "tipo": "ingles",
+            "anio": 2010,
+            "semestre": 1
+        },
+        {
+            "id": "Calculo diferencial",
+            "nombre": "MA0103",
+            "tipo": "matematico",
+            "anio": 2012,
+            "semestre": 1
+        }
+    ]
+}

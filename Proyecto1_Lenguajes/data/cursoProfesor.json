@@ -1,0 +1,36 @@
+{
+    "cursos": [
+        {
+            "anio": 2022,
+            "id": "MA0101",
+            "nombre": "Mate General",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2022,
+            "id": "MA0101",
+            "nombre": "Intro",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2010,
+            "id": "Ingles1",
+            "nombre": "MA0102",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2010,
+            "id": "Comunicacion",
+            "nombre": "LA0102",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000002"
+        }
+    ]
+}

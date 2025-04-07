@@ -1,8 +1,8 @@
 {
     "users": [
         {
-            "email": "b@estu.es",
-            "password": "234"
+            "email": "a@admin.es",
+            "password": "123"
         }
     ]
 }
