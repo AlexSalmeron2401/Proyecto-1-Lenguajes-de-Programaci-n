@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 
 # Importamos las ventanas principales para cada rol.
-from frontend.vista_admins import VentanaPrincipalAdmin
+from frontend.vista_profes import VentanaProfes
 from frontend.vista_visores import VentanaPrincipalVisor
 from frontend.vista_programador import VentanaProgramador
 
@@ -88,7 +88,7 @@ class VentanaLogin(QDialog):
                 nombre = ""
             
             if rol.lower() == "profesor":
-                self.ventana_principal = VentanaPrincipalAdmin(nombre)
+                self.ventana_principal = VentanaProfes(nombre)
             elif rol.lower() == "estudiante":
                 self.ventana_principal = VentanaPrincipalVisor(nombre)
             elif rol.lower() == "programador":
