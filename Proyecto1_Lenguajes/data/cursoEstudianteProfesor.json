@@ -1,0 +1,126 @@
+{
+    "cursos": {
+        "2022": {
+            "1": [
+                {
+                    "anio": 2022,
+                    "id": "MA0101",
+                    "nombre": "Intro",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 0.0,
+                                "tema2p1": 0.0,
+                                "lab1t1": 0.0,
+                                "proyecto1": 0.0,
+                                "tema1p2": 0.0,
+                                "tema2p2": 0.0,
+                                "lab2t2": 0.0,
+                                "proyecto2": 0.0,
+                                "notaGeneralProyectos": 0.0,
+                                "notaGeneralLabs": 0.0,
+                                "totaTotal": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2022,
+                    "id": "MA0101",
+                    "nombre": "Mate General",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 0.0,
+                                "tema2e1": 0.0,
+                                "tema3e1": 0.0,
+                                "examen1": 0.0,
+                                "tema1e2": 0.0,
+                                "tema2e2": 0.0,
+                                "tema3e2": 0.0,
+                                "examen2": 0.0,
+                                "tema1e3": 0.0,
+                                "tema2e3": 0.0,
+                                "tema3e3": 0.0,
+                                "examen3": 0.0,
+                                "totalExamenes": 0.0,
+                                "tareas": 0.0,
+                                "notaGeneral": 0.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "2010": {
+            "1": [
+                {
+                    "anio": 2010,
+                    "id": "Ingles1",
+                    "nombre": "MA0102",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "examen1": 0.0,
+                                "examen2": 0.0,
+                                "examen3": 0.0,
+                                "notaGeneral": 0.0,
+                                "tareas": 0.0,
+                                "tema1e1": 0.0,
+                                "tema1e2": 0.0,
+                                "tema1e3": 0.0,
+                                "tema2e1": 0.0,
+                                "tema2e2": 0.0,
+                                "tema2e3": 0.0,
+                                "tema3e1": 0.0,
+                                "tema3e2": 0.0,
+                                "tema3e3": 0.0,
+                                "totalExamenes": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2010,
+                    "id": "Comunicacion",
+                    "nombre": "LA0102",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1t1": 0.0,
+                                "tema2t1": 0.0,
+                                "trabajo1": 0.0,
+                                "tema1t2": 0.0,
+                                "tema2t2": 0.0,
+                                "trabajo2": 0.0,
+                                "notaTrabajos": 0.0,
+                                "notaPresentacion": 0.0,
+                                "notaTotal": 0.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
