@@ -1,0 +1,578 @@
+{
+    "estudiante": {
+        "anio": 2023,
+        "semestre": 1,
+        "cursos": [
+            {
+                "anio": 2023,
+                "id": "MA0101",
+                "nombre": "Metematica General",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "matematico",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 98.4,
+                            "tema2e1": 87.0,
+                            "tema3e1": 90.1,
+                            "examen1": 63.9,
+                            "tema1e2": 99.0,
+                            "tema2e2": 95.4,
+                            "tema3e2": 98.0,
+                            "examen2": 68.7,
+                            "tema1e3": 70.9,
+                            "tema2e3": 67.6,
+                            "tema3e3": 89.1,
+                            "examen3": 79.7,
+                            "totalExamenes": 70.8,
+                            "tareas": 88.4,
+                            "notaGeneral": 76.1
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "IC1802",
+                "nombre": "Programacion",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "carrera",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1p1": 75.0,
+                            "tema2p1": 79.9,
+                            "lab1t1": 94.9,
+                            "proyecto1": 61.6,
+                            "tema1p2": 71.6,
+                            "tema2p2": 60.5,
+                            "lab2t2": 65.0,
+                            "proyecto2": 84.5,
+                            "notaGeneralProyectos": 73.0,
+                            "notaGeneralLabs": 80.0,
+                            "totaTotal": 75.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "CI0202",
+                "nombre": "Ingles Basico",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "ingles",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 68.0,
+                            "tema2e1": 94.1,
+                            "tema3e1": 86.5,
+                            "examen1": 94.2,
+                            "tema1e2": 88.5,
+                            "tema2e2": 76.3,
+                            "tema3e2": 64.8,
+                            "examen2": 73.0,
+                            "tema1e3": 81.7,
+                            "tema2e3": 81.6,
+                            "tema3e3": 98.2,
+                            "examen3": 96.7,
+                            "totalExamenes": 88.0,
+                            "tareas": 82.2,
+                            "notaGeneral": 86.3
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "CI1106",
+                "nombre": "Comunicacion Escrita",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "otro",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1t1": 87.2,
+                            "tema2t1": 94.9,
+                            "trabajo1": 82.3,
+                            "tema1t2": 84.3,
+                            "tema2t2": 80.0,
+                            "trabajo2": 78.2,
+                            "notaTrabajos": 80.2,
+                            "notaPresentacion": 84.9,
+                            "notaTotal": 82.6
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "MA1102",
+                "nombre": "Calculo diferencial e integral",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "matematico",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 66.5,
+                            "tema2e1": 61.4,
+                            "tema3e1": 91.6,
+                            "examen1": 86.8,
+                            "tema1e2": 94.3,
+                            "tema2e2": 63.4,
+                            "tema3e2": 69.3,
+                            "examen2": 66.6,
+                            "tema1e3": 70.8,
+                            "tema2e3": 68.6,
+                            "tema3e3": 66.9,
+                            "examen3": 73.3,
+                            "totalExamenes": 75.6,
+                            "tareas": 72.5,
+                            "notaGeneral": 74.7
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "IC2101",
+                "nombre": "Programacion orientada a objetos",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "carrera",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1p1": 65.7,
+                            "tema2p1": 84.3,
+                            "lab1t1": 93.8,
+                            "proyecto1": 93.5,
+                            "tema1p2": 79.5,
+                            "tema2p2": 91.6,
+                            "lab2t2": 94.9,
+                            "proyecto2": 82.3,
+                            "notaGeneralProyectos": 87.9,
+                            "notaGeneralLabs": 94.3,
+                            "totaTotal": 90.5
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "CI1230",
+                "nombre": "Ingles 1",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "ingles",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 91.0,
+                            "tema2e1": 99.5,
+                            "tema3e1": 87.2,
+                            "examen1": 71.2,
+                            "tema1e2": 80.3,
+                            "tema2e2": 71.9,
+                            "tema3e2": 91.4,
+                            "examen2": 83.9,
+                            "tema1e3": 66.8,
+                            "tema2e3": 74.4,
+                            "tema3e3": 70.1,
+                            "examen3": 99.7,
+                            "totalExamenes": 84.9,
+                            "tareas": 81.4,
+                            "notaGeneral": 83.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2023,
+                "id": "CI1107",
+                "nombre": "Comunicacion Oral",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "otro",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1t1": 89.2,
+                            "tema2t1": 68.0,
+                            "trabajo1": 84.4,
+                            "tema1t2": 88.9,
+                            "tema2t2": 65.8,
+                            "trabajo2": 77.7,
+                            "notaTrabajos": 81.1,
+                            "notaPresentacion": 76.6,
+                            "notaTotal": 78.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "MA1103",
+                "nombre": "Calculo y álgebra lineal",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "matematico",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 61.1,
+                            "tema2e1": 79.8,
+                            "tema3e1": 69.5,
+                            "examen1": 80.9,
+                            "tema1e2": 66.1,
+                            "tema2e2": 98.8,
+                            "tema3e2": 85.4,
+                            "examen2": 77.5,
+                            "tema1e3": 94.0,
+                            "tema2e3": 97.6,
+                            "tema3e3": 97.7,
+                            "examen3": 85.2,
+                            "totalExamenes": 81.2,
+                            "tareas": 83.3,
+                            "notaGeneral": 81.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "IC3002",
+                "nombre": "Analisis de algoritmos",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "carrera",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1p1": 86.2,
+                            "tema2p1": 74.4,
+                            "lab1t1": 71.9,
+                            "proyecto1": 72.3,
+                            "tema1p2": 99.8,
+                            "tema2p2": 99.6,
+                            "lab2t2": 73.3,
+                            "proyecto2": 68.8,
+                            "notaGeneralProyectos": 70.5,
+                            "notaGeneralLabs": 72.6,
+                            "totaTotal": 71.3
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "CI1231",
+                "nombre": "Ingles 2",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "ingles",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 88.6,
+                            "tema2e1": 78.6,
+                            "tema3e1": 70.1,
+                            "examen1": 68.7,
+                            "tema1e2": 62.7,
+                            "tema2e2": 63.6,
+                            "tema3e2": 95.9,
+                            "examen2": 89.4,
+                            "tema1e3": 70.4,
+                            "tema2e3": 90.1,
+                            "tema3e3": 64.5,
+                            "examen3": 73.6,
+                            "totalExamenes": 77.2,
+                            "tareas": 76.1,
+                            "notaGeneral": 76.9
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "CS2101",
+                "nombre": "Ambiente Humano",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "otro",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1t1": 92.8,
+                            "tema2t1": 82.1,
+                            "trabajo1": 72.0,
+                            "tema1t2": 89.5,
+                            "tema2t2": 68.8,
+                            "trabajo2": 61.1,
+                            "notaTrabajos": 66.5,
+                            "notaPresentacion": 76.7,
+                            "notaTotal": 71.6
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "MA2404",
+                "nombre": "Probabilidades",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "matematico",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 62.5,
+                            "tema2e1": 78.5,
+                            "tema3e1": 90.5,
+                            "examen1": 78.9,
+                            "tema1e2": 70.2,
+                            "tema2e2": 61.6,
+                            "tema3e2": 68.9,
+                            "examen2": 82.8,
+                            "tema1e3": 94.5,
+                            "tema2e3": 92.2,
+                            "tema3e3": 74.6,
+                            "examen3": 77.6,
+                            "totalExamenes": 79.8,
+                            "tareas": 77.1,
+                            "notaGeneral": 79.0
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "IC4700",
+                "nombre": "Lenguajes de programacion",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "carrera",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1p1": 67.4,
+                            "tema2p1": 98.4,
+                            "lab1t1": 78.5,
+                            "proyecto1": 77.8,
+                            "tema1p2": 76.7,
+                            "tema2p2": 83.8,
+                            "lab2t2": 64.7,
+                            "proyecto2": 87.6,
+                            "notaGeneralProyectos": 82.7,
+                            "notaGeneralLabs": 71.6,
+                            "totaTotal": 78.3
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "CI1232",
+                "nombre": "Ingles 3",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "ingles",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 67.8,
+                            "tema2e1": 82.2,
+                            "tema3e1": 71.0,
+                            "examen1": 90.1,
+                            "tema1e2": 64.8,
+                            "tema2e2": 80.1,
+                            "tema3e2": 80.4,
+                            "examen2": 64.1,
+                            "tema1e3": 73.7,
+                            "tema2e3": 60.3,
+                            "tema3e3": 79.1,
+                            "examen3": 63.5,
+                            "totalExamenes": 72.6,
+                            "tareas": 73.3,
+                            "notaGeneral": 72.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2024,
+                "id": "CS3401",
+                "nombre": "Seminario de estudios filosoficos historicos",
+                "profe": "2025000001",
+                "semestre": 2,
+                "tipo": "otro",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1t1": 85.1,
+                            "tema2t1": 83.1,
+                            "trabajo1": 67.4,
+                            "tema1t2": 61.8,
+                            "tema2t2": 77.1,
+                            "trabajo2": 76.2,
+                            "notaTrabajos": 71.8,
+                            "notaPresentacion": 75.7,
+                            "notaTotal": 73.8
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2025,
+                "id": "MA3405",
+                "nombre": "Estadística",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "matematico",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 71.4,
+                            "tema2e1": 79.6,
+                            "tema3e1": 91.5,
+                            "examen1": 63.2,
+                            "tema1e2": 64.7,
+                            "tema2e2": 77.5,
+                            "tema3e2": 94.7,
+                            "examen2": 99.2,
+                            "tema1e3": 79.2,
+                            "tema2e3": 75.8,
+                            "tema3e3": 71.9,
+                            "examen3": 62.8,
+                            "totalExamenes": 75.1,
+                            "tareas": 78.5,
+                            "notaGeneral": 76.1
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2025,
+                "id": "IC5701",
+                "nombre": "Compiladores e interpretes",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "carrera",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1p1": 87.6,
+                            "tema2p1": 94.0,
+                            "lab1t1": 85.9,
+                            "proyecto1": 79.9,
+                            "tema1p2": 88.1,
+                            "tema2p2": 87.5,
+                            "lab2t2": 82.7,
+                            "proyecto2": 94.5,
+                            "notaGeneralProyectos": 87.2,
+                            "notaGeneralLabs": 84.3,
+                            "totaTotal": 86.0
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2025,
+                "id": "CI1233",
+                "nombre": "Ingles 4",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "ingles",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1e1": 62.6,
+                            "tema2e1": 66.0,
+                            "tema3e1": 69.2,
+                            "examen1": 98.3,
+                            "tema1e2": 78.0,
+                            "tema2e2": 83.3,
+                            "tema3e2": 87.6,
+                            "examen2": 67.4,
+                            "tema1e3": 87.3,
+                            "tema2e3": 84.2,
+                            "tema3e3": 62.4,
+                            "examen3": 97.5,
+                            "totalExamenes": 87.7,
+                            "tareas": 75.6,
+                            "notaGeneral": 84.1
+                        }
+                    }
+                ]
+            },
+            {
+                "anio": 2025,
+                "id": "AE4208",
+                "nombre": "Desarrollo de emprendedores",
+                "profe": "2025000001",
+                "semestre": 1,
+                "tipo": "otro",
+                "estudiantes": [
+                    {
+                        "id": "20250000001",
+                        "nombre": "Byron",
+                        "notas": {
+                            "tema1t1": 61.1,
+                            "tema2t1": 68.6,
+                            "trabajo1": 87.4,
+                            "tema1t2": 60.6,
+                            "tema2t2": 91.9,
+                            "trabajo2": 64.8,
+                            "notaTrabajos": 76.1,
+                            "notaPresentacion": 76.9,
+                            "notaTotal": 76.5
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

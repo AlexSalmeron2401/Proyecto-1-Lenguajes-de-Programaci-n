@@ -5,6 +5,7 @@ import json
 
 from frontend.vista_profesCursos import VentanaVerCursos
 from frontend.vista_profesEditNotasCursos import VentanaEditNotas
+from frontend.vista_profesRendimiento import VentanaRendimientoHistorico
 
 class VentanaProfes(QWidget):
     def __init__(self, nombre):
@@ -36,6 +37,7 @@ class VentanaProfes(QWidget):
         botones = [
             ("Ver Cursos Impartidos", self.abrir_cursos_dados),
             ("Ver Cursos de Estudiantes", self.abrir_edit_notas),
+            ("Ver Rendimiento Historico", self.abrir_rendimiento_historico),
             ("Logout", self.logout)
         ]
         
@@ -103,6 +105,12 @@ class VentanaProfes(QWidget):
         self.hide()
         self.verEstCursos = VentanaEditNotas(profesor_email)
         self.verEstCursos.exec_()
+        self.show()
+    def abrir_rendimiento_historico(self):
+        profesor_email = self.obtener_profesor_email()
+        self.hide()
+        self.verCursos = VentanaRendimientoHistorico(profesor_email)
+        self.verCursos.exec_()
         self.show()
     
     def logout(self):

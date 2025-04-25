@@ -108,10 +108,10 @@ class VentanaProgramadorCrearCurso(QDialog):
             QMessageBox.warning(self, "Error", "El año y el semestre deben ser numéricos.")
             return
         
-        # Validar que el año esté entre 2010 y el año actual
+        # Validar que el año esté entre 2023 y el año actual
         current_year = datetime.date.today().year
-        if anio < 2010 or anio > current_year:
-            QMessageBox.warning(self, "Error", f"El año debe estar entre 2010 y {current_year}.")
+        if anio < 2023 or anio > current_year:
+            QMessageBox.warning(self, "Error", f"El año debe estar entre 2023 y {current_year}.")
             return
         
         nuevo_curso = {

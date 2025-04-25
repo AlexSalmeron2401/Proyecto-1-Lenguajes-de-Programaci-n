@@ -2,23 +2,142 @@
     "cursos": [
         {
             "id": "MA0101",
-            "nombre": "Mate General",
+            "nombre": "Metematica General",
             "tipo": "matematico",
-            "anio": 2022,
+            "anio": 2023,
             "semestre": 1
         },
         {
-            "id": "Mate Discreta",
-            "nombre": "MA0102",
+            "id": "MA1102",
+            "nombre": "Calculo diferencial e integral",
+            "tipo": "matematico",
+            "anio": 2023,
+            "semestre": 2
+        },
+        {
+            "id": "MA1103",
+            "nombre": "Calculo y álgebra lineal",
+            "tipo": "matematico",
+            "anio": 2024,
+            "semestre": 1
+        },
+        {
+            "id": "MA2404",
+            "nombre": "Probabilidades",
+            "tipo": "matematico",
+            "anio": 2024,
+            "semestre": 2
+        },
+        {
+            "id": "MA3405",
+            "nombre": "Estadística",
+            "tipo": "matematico",
+            "anio": 2025,
+            "semestre": 1
+        },
+        {
+            "id": "IC1802",
+            "nombre": "Programacion",
+            "tipo": "carrera",
+            "anio": 2023,
+            "semestre": 1
+        },
+        {
+            "id": "IC2101",
+            "nombre": "Programacion orientada a objetos",
+            "tipo": "carrera",
+            "anio": 2023,
+            "semestre": 2
+        },
+        {
+            "id": "IC3002",
+            "nombre": "Analisis de algoritmos",
+            "tipo": "carrera",
+            "anio": 2024,
+            "semestre": 1
+        },
+        {
+            "id": "IC4700",
+            "nombre": "Lenguajes de programacion",
+            "tipo": "carrera",
+            "anio": 2024,
+            "semestre": 2
+        },
+        {
+            "id": "IC5701",
+            "nombre": "Compiladores e interpretes",
+            "tipo": "carrera",
+            "anio": 2025,
+            "semestre": 1
+        },
+        {
+            "id": "CI0202",
+            "nombre": "Ingles Basico",
             "tipo": "ingles",
-            "anio": 2010,
+            "anio": 2023,
             "semestre": 1
         },
         {
-            "id": "Calculo diferencial",
-            "nombre": "MA0103",
-            "tipo": "matematico",
-            "anio": 2012,
+            "id": "CI1230",
+            "nombre": "Ingles 1",
+            "tipo": "ingles",
+            "anio": 2023,
+            "semestre": 2
+        },
+        {
+            "id": "CI1231",
+            "nombre": "Ingles 2",
+            "tipo": "ingles",
+            "anio": 2024,
+            "semestre": 1
+        },
+        {
+            "id": "CI1232",
+            "nombre": "Ingles 3",
+            "tipo": "ingles",
+            "anio": 2024,
+            "semestre": 2
+        },
+        {
+            "id": "CI1233",
+            "nombre": "Ingles 4",
+            "tipo": "ingles",
+            "anio": 2025,
+            "semestre": 1
+        },
+        {
+            "id": "CI1106",
+            "nombre": "Comunicacion Escrita",
+            "tipo": "otro",
+            "anio": 2023,
+            "semestre": 1
+        },
+        {
+            "id": "CI1107",
+            "nombre": "Comunicacion Oral",
+            "tipo": "otro",
+            "anio": 2023,
+            "semestre": 2
+        },
+        {
+            "id": "CS2101",
+            "nombre": "Ambiente Humano",
+            "tipo": "otro",
+            "anio": 2024,
+            "semestre": 1
+        },
+        {
+            "id": "CS3401",
+            "nombre": "Seminario de estudios filosoficos historicos",
+            "tipo": "otro",
+            "anio": 2024,
+            "semestre": 2
+        },
+        {
+            "id": "AE4208",
+            "nombre": "Desarrollo de emprendedores",
+            "tipo": "otro",
+            "anio": 2025,
             "semestre": 1
         }
     ]

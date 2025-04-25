@@ -9,30 +9,58 @@
         },
         {
             "id": "2025000001",
-            "nombre": "Fabian",
+            "nombre": "Fabian Gonzales",
             "tipo": "profesor",
-            "email": "m@profesor.es",
+            "email": "a@profesor.es",
             "password": "123"
         },
         {
             "id": "2025000002",
             "nombre": "Alex Salmeron",
             "tipo": "profesor",
-            "email": "k@profesor.es",
+            "email": "b@profesor.es",
             "password": "123"
         },
         {
             "id": "20250000001",
             "nombre": "Byron",
             "tipo": "estudiante",
-            "email": "b@estudiante.es",
+            "email": "a@estudiante.es",
             "password": "123"
         },
         {
             "id": "20250000002",
             "nombre": "Joseph",
             "tipo": "estudiante",
-            "email": "jo@estudiante.es",
+            "email": "b@estudiante.es",
+            "password": "123"
+        },
+        {
+            "id": "20250000003",
+            "nombre": "Kenny",
+            "tipo": "estudiante",
+            "email": "c@estudiante.es",
+            "password": "123"
+        },
+        {
+            "id": "20250000004",
+            "nombre": "Andres",
+            "tipo": "estudiante",
+            "email": "d@estudiante.es",
+            "password": "123"
+        },
+        {
+            "id": "20250000005",
+            "nombre": "Gustavo",
+            "tipo": "estudiante",
+            "email": "e@estudiante.es",
+            "password": "123"
+        },
+        {
+            "id": "20250000006",
+            "nombre": "Asdrubal",
+            "tipo": "estudiante",
+            "email": "f@estudiante.es",
             "password": "123"
         }
     ]

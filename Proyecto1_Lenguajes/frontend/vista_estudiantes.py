@@ -6,6 +6,7 @@ from PyQt5.QtCore import Qt
 # Se importan los módulos reutilizados para editar y ver cursos de estudiantes.
 from frontend.vista_estudiantesEditDatosEstudiante import VentanaEditarDatosEstudiante
 from frontend.vista_estudiantesVerCursos import VentanaCursos
+from frontend.vista_estudiantesRendimiento import VentanaEstudianteRendimiento
 
 class VentanaPrincipalVisor(QWidget):
     def __init__(self, nombre):
@@ -30,15 +31,18 @@ class VentanaPrincipalVisor(QWidget):
         welcome_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(welcome_label)
         
-        # Botón para editar cursos (usar VentanaEditarDatosEstudiante)
-        btn_editar = QPushButton("Editar Mi Información")
-        btn_editar.clicked.connect(self.abrir_editar)
-        layout.addWidget(btn_editar)
+        botones = [
+            ("Editar Mi Informacion", self.abrir_editar),
+            ("Ver Mis Cursos", self.abrir_ver),
+            ("Ver Rendimiento Historico", self.abrir_rendimiento_historico),
+            ("Logout", self.logout)
+        ]
         
-        # Botón para ver cursos (usar VentanaVerEstudiantesCursos)
-        btn_ver = QPushButton("Ver Mis Cursos")
-        btn_ver.clicked.connect(self.abrir_ver)
-        layout.addWidget(btn_ver)
+        for texto, slot in botones:
+            btn = QPushButton(texto)
+            btn.clicked.connect(slot)
+            btn.setCursor(Qt.PointingHandCursor)
+            layout.addWidget(btn)
         
         self.setLayout(layout)
     
@@ -93,7 +97,20 @@ class VentanaPrincipalVisor(QWidget):
         Se reutiliza VentanaVerEstudiantesCursos pasando el email del estudiante.
         """
         if self.estudiante_data:
+            self.hide()
             ventana_ver = VentanaCursos(self.estudiante_email)
             ventana_ver.exec_()
+            self.show()
         else:
             QMessageBox.warning(self, "Error", "No se encontró tu registro en usuarios.json.")
+    def abrir_rendimiento_historico(self):
+        self.hide()
+        self.verCursos = VentanaEstudianteRendimiento(self.estudiante_email)
+        self.verCursos.exec_()
+        self.show()
+    def logout(self):
+        from frontend.vista_login import VentanaLogin
+        self.hide()
+        self.login = VentanaLogin()
+        self.login.show()
+        self.close()

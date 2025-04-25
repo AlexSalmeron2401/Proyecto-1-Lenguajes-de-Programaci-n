@@ -1,38 +1,11 @@
 {
     "cursos": {
-        "2022": {
+        "2023": {
             "1": [
                 {
-                    "anio": 2022,
+                    "anio": 2023,
                     "id": "MA0101",
-                    "nombre": "Intro",
-                    "profe": "2025000002",
-                    "semestre": 1,
-                    "tipo": "carrera",
-                    "estudiantes": [
-                        {
-                            "id": "20250000001",
-                            "nombre": "Byron",
-                            "notas": {
-                                "tema1p1": 0.0,
-                                "tema2p1": 0.0,
-                                "lab1t1": 0.0,
-                                "proyecto1": 0.0,
-                                "tema1p2": 0.0,
-                                "tema2p2": 0.0,
-                                "lab2t2": 0.0,
-                                "proyecto2": 0.0,
-                                "notaGeneralProyectos": 0.0,
-                                "notaGeneralLabs": 0.0,
-                                "totaTotal": 0.0
-                            }
-                        }
-                    ]
-                },
-                {
-                    "anio": 2022,
-                    "id": "MA0101",
-                    "nombre": "Mate General",
+                    "nombre": "Metematica General",
                     "profe": "2025000001",
                     "semestre": 1,
                     "tipo": "matematico",
@@ -41,34 +14,133 @@
                             "id": "20250000001",
                             "nombre": "Byron",
                             "notas": {
-                                "tema1e1": 0.0,
-                                "tema2e1": 0.0,
-                                "tema3e1": 0.0,
-                                "examen1": 0.0,
-                                "tema1e2": 0.0,
-                                "tema2e2": 0.0,
-                                "tema3e2": 0.0,
-                                "examen2": 0.0,
-                                "tema1e3": 0.0,
-                                "tema2e3": 0.0,
-                                "tema3e3": 0.0,
-                                "examen3": 0.0,
-                                "totalExamenes": 0.0,
-                                "tareas": 0.0,
-                                "notaGeneral": 0.0
+                                "tema1e1": 98.4,
+                                "tema2e1": 87.0,
+                                "tema3e1": 90.1,
+                                "examen1": 63.9,
+                                "tema1e2": 99.0,
+                                "tema2e2": 95.4,
+                                "tema3e2": 98.0,
+                                "examen2": 68.7,
+                                "tema1e3": 70.9,
+                                "tema2e3": 67.6,
+                                "tema3e3": 89.1,
+                                "examen3": 79.7,
+                                "totalExamenes": 70.8,
+                                "tareas": 88.4,
+                                "notaGeneral": 76.1
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 97.0,
+                                "tema2e1": 71.5,
+                                "tema3e1": 78.0,
+                                "examen1": 61.6,
+                                "tema1e2": 90.5,
+                                "tema2e2": 75.5,
+                                "tema3e2": 80.2,
+                                "examen2": 67.6,
+                                "tema1e3": 84.1,
+                                "tema2e3": 93.6,
+                                "tema3e3": 95.6,
+                                "examen3": 85.1,
+                                "totalExamenes": 71.4,
+                                "tareas": 85.1,
+                                "notaGeneral": 75.5
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 68.9,
+                                "tema2e1": 89.6,
+                                "tema3e1": 62.0,
+                                "examen1": 63.3,
+                                "tema1e2": 74.3,
+                                "tema2e2": 81.4,
+                                "tema3e2": 90.5,
+                                "examen2": 99.0,
+                                "tema1e3": 87.9,
+                                "tema2e3": 69.1,
+                                "tema3e3": 98.5,
+                                "examen3": 94.5,
+                                "totalExamenes": 85.6,
+                                "tareas": 80.2,
+                                "notaGeneral": 84.0
                             }
                         }
                     ]
-                }
-            ]
-        },
-        "2010": {
-            "1": [
+                },
                 {
-                    "anio": 2010,
-                    "id": "Ingles1",
-                    "nombre": "MA0102",
-                    "profe": "2025000002",
+                    "anio": 2023,
+                    "id": "IC1802",
+                    "nombre": "Programacion",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 75.0,
+                                "tema2p1": 79.9,
+                                "lab1t1": 94.9,
+                                "proyecto1": 61.6,
+                                "tema1p2": 71.6,
+                                "tema2p2": 60.5,
+                                "lab2t2": 65.0,
+                                "proyecto2": 84.5,
+                                "notaGeneralProyectos": 73.0,
+                                "notaGeneralLabs": 80.0,
+                                "totaTotal": 75.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1p1": 89.1,
+                                "tema2p1": 71.9,
+                                "lab1t1": 97.2,
+                                "proyecto1": 71.7,
+                                "tema1p2": 72.6,
+                                "tema2p2": 64.7,
+                                "lab2t2": 65.0,
+                                "proyecto2": 84.5,
+                                "notaGeneralProyectos": 78.1,
+                                "notaGeneralLabs": 81.1,
+                                "totaTotal": 79.3
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1p1": 72.5,
+                                "tema2p1": 80.8,
+                                "lab1t1": 93.9,
+                                "proyecto1": 98.4,
+                                "tema1p2": 83.2,
+                                "tema2p2": 99.1,
+                                "lab2t2": 96.0,
+                                "proyecto2": 63.6,
+                                "notaGeneralProyectos": 81.0,
+                                "notaGeneralLabs": 95.0,
+                                "totaTotal": 86.6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI0202",
+                    "nombre": "Ingles Basico",
+                    "profe": "2025000001",
                     "semestre": 1,
                     "tipo": "ingles",
                     "estudiantes": [
@@ -76,30 +148,72 @@
                             "id": "20250000001",
                             "nombre": "Byron",
                             "notas": {
-                                "examen1": 0.0,
-                                "examen2": 0.0,
-                                "examen3": 0.0,
-                                "notaGeneral": 0.0,
-                                "tareas": 0.0,
-                                "tema1e1": 0.0,
-                                "tema1e2": 0.0,
-                                "tema1e3": 0.0,
-                                "tema2e1": 0.0,
-                                "tema2e2": 0.0,
-                                "tema2e3": 0.0,
-                                "tema3e1": 0.0,
-                                "tema3e2": 0.0,
-                                "tema3e3": 0.0,
-                                "totalExamenes": 0.0
+                                "tema1e1": 68.0,
+                                "tema2e1": 94.1,
+                                "tema3e1": 86.5,
+                                "examen1": 94.2,
+                                "tema1e2": 88.5,
+                                "tema2e2": 76.3,
+                                "tema3e2": 64.8,
+                                "examen2": 73.0,
+                                "tema1e3": 81.7,
+                                "tema2e3": 81.6,
+                                "tema3e3": 98.2,
+                                "examen3": 96.7,
+                                "totalExamenes": 88.0,
+                                "tareas": 82.2,
+                                "notaGeneral": 86.3
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 69.8,
+                                "tema2e1": 65.2,
+                                "tema3e1": 70.3,
+                                "examen1": 97.1,
+                                "tema1e2": 62.7,
+                                "tema2e2": 83.2,
+                                "tema3e2": 87.8,
+                                "examen2": 63.0,
+                                "tema1e3": 91.4,
+                                "tema2e3": 78.6,
+                                "tema3e3": 72.5,
+                                "examen3": 73.6,
+                                "totalExamenes": 77.9,
+                                "tareas": 75.7,
+                                "notaGeneral": 77.2
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 94.8,
+                                "tema2e1": 70.9,
+                                "tema3e1": 63.2,
+                                "examen1": 92.6,
+                                "tema1e2": 82.6,
+                                "tema2e2": 79.0,
+                                "tema3e2": 96.6,
+                                "examen2": 91.7,
+                                "tema1e3": 66.1,
+                                "tema2e3": 71.9,
+                                "tema3e3": 64.9,
+                                "examen3": 98.9,
+                                "totalExamenes": 94.4,
+                                "tareas": 76.7,
+                                "notaGeneral": 89.1
                             }
                         }
                     ]
                 },
                 {
-                    "anio": 2010,
-                    "id": "Comunicacion",
-                    "nombre": "LA0102",
-                    "profe": "2025000002",
+                    "anio": 2023,
+                    "id": "CI1106",
+                    "nombre": "Comunicacion Escrita",
+                    "profe": "2025000001",
                     "semestre": 1,
                     "tipo": "otro",
                     "estudiantes": [
@@ -107,15 +221,2415 @@
                             "id": "20250000001",
                             "nombre": "Byron",
                             "notas": {
-                                "tema1t1": 0.0,
-                                "tema2t1": 0.0,
-                                "trabajo1": 0.0,
-                                "tema1t2": 0.0,
-                                "tema2t2": 0.0,
-                                "trabajo2": 0.0,
-                                "notaTrabajos": 0.0,
-                                "notaPresentacion": 0.0,
-                                "notaTotal": 0.0
+                                "tema1t1": 87.2,
+                                "tema2t1": 94.9,
+                                "trabajo1": 82.3,
+                                "tema1t2": 84.3,
+                                "tema2t2": 80.0,
+                                "trabajo2": 78.2,
+                                "notaTrabajos": 80.2,
+                                "notaPresentacion": 84.9,
+                                "notaTotal": 82.6
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1t1": 68.2,
+                                "tema2t1": 73.4,
+                                "trabajo1": 88.4,
+                                "tema1t2": 77.5,
+                                "tema2t2": 81.9,
+                                "trabajo2": 78.1,
+                                "notaTrabajos": 83.2,
+                                "notaPresentacion": 78.9,
+                                "notaTotal": 81.1
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1t1": 95.7,
+                                "tema2t1": 62.6,
+                                "trabajo1": 71.1,
+                                "tema1t2": 77.7,
+                                "tema2t2": 62.3,
+                                "trabajo2": 67.9,
+                                "notaTrabajos": 69.5,
+                                "notaPresentacion": 97.2,
+                                "notaTotal": 83.3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "MA0101",
+                    "nombre": "Metematica General",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 80.2,
+                                "tema2e1": 81.0,
+                                "tema3e1": 85.2,
+                                "examen1": 68.6,
+                                "tema1e2": 83.6,
+                                "tema2e2": 75.3,
+                                "tema3e2": 72.7,
+                                "examen2": 81.6,
+                                "tema1e3": 72.5,
+                                "tema2e3": 85.1,
+                                "tema3e3": 84.6,
+                                "examen3": 75.2,
+                                "totalExamenes": 75.1,
+                                "tareas": 80.0,
+                                "notaGeneral": 76.6
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 96.8,
+                                "tema2e1": 60.7,
+                                "tema3e1": 65.9,
+                                "examen1": 64.6,
+                                "tema1e2": 97.0,
+                                "tema2e2": 81.8,
+                                "tema3e2": 91.0,
+                                "examen2": 92.5,
+                                "tema1e3": 70.6,
+                                "tema2e3": 77.3,
+                                "tema3e3": 78.1,
+                                "examen3": 78.8,
+                                "totalExamenes": 78.6,
+                                "tareas": 79.9,
+                                "notaGeneral": 79.0
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 97.9,
+                                "tema2e1": 98.9,
+                                "tema3e1": 81.5,
+                                "examen1": 71.3,
+                                "tema1e2": 94.4,
+                                "tema2e2": 70.5,
+                                "tema3e2": 91.4,
+                                "examen2": 69.5,
+                                "tema1e3": 98.6,
+                                "tema2e3": 66.3,
+                                "tema3e3": 95.3,
+                                "examen3": 74.5,
+                                "totalExamenes": 71.8,
+                                "tareas": 88.3,
+                                "notaGeneral": 76.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "IC1802",
+                    "nombre": "Programacion",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1p1": 84.8,
+                                "tema2p1": 88.1,
+                                "lab1t1": 97.9,
+                                "proyecto1": 65.8,
+                                "tema1p2": 83.0,
+                                "tema2p2": 66.5,
+                                "lab2t2": 99.7,
+                                "proyecto2": 96.4,
+                                "notaGeneralProyectos": 81.1,
+                                "notaGeneralLabs": 98.8,
+                                "totaTotal": 88.2
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1p1": 72.7,
+                                "tema2p1": 88.2,
+                                "lab1t1": 67.1,
+                                "proyecto1": 76.1,
+                                "tema1p2": 65.4,
+                                "tema2p2": 80.4,
+                                "lab2t2": 99.6,
+                                "proyecto2": 89.8,
+                                "notaGeneralProyectos": 82.9,
+                                "notaGeneralLabs": 83.3,
+                                "totaTotal": 83.1
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1p1": 86.7,
+                                "tema2p1": 79.4,
+                                "lab1t1": 61.2,
+                                "proyecto1": 95.4,
+                                "tema1p2": 84.1,
+                                "tema2p2": 92.4,
+                                "lab2t2": 90.8,
+                                "proyecto2": 92.9,
+                                "notaGeneralProyectos": 94.2,
+                                "notaGeneralLabs": 76.0,
+                                "totaTotal": 86.9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI0202",
+                    "nombre": "Ingles Basico",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 88.3,
+                                "tema2e1": 92.0,
+                                "tema3e1": 83.1,
+                                "examen1": 76.7,
+                                "tema1e2": 73.8,
+                                "tema2e2": 69.6,
+                                "tema3e2": 71.5,
+                                "examen2": 65.5,
+                                "tema1e3": 96.0,
+                                "tema2e3": 86.0,
+                                "tema3e3": 93.1,
+                                "examen3": 87.2,
+                                "totalExamenes": 76.5,
+                                "tareas": 83.7,
+                                "notaGeneral": 78.7
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 98.9,
+                                "tema2e1": 77.4,
+                                "tema3e1": 91.1,
+                                "examen1": 72.6,
+                                "tema1e2": 83.1,
+                                "tema2e2": 98.5,
+                                "tema3e2": 99.5,
+                                "examen2": 61.7,
+                                "tema1e3": 64.7,
+                                "tema2e3": 84.5,
+                                "tema3e3": 74.4,
+                                "examen3": 95.4,
+                                "totalExamenes": 76.6,
+                                "tareas": 85.8,
+                                "notaGeneral": 79.4
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 81.5,
+                                "tema2e1": 70.8,
+                                "tema3e1": 89.8,
+                                "examen1": 75.0,
+                                "tema1e2": 61.1,
+                                "tema2e2": 93.1,
+                                "tema3e2": 94.7,
+                                "examen2": 83.0,
+                                "tema1e3": 82.5,
+                                "tema2e3": 69.5,
+                                "tema3e3": 85.1,
+                                "examen3": 99.1,
+                                "totalExamenes": 85.7,
+                                "tareas": 80.9,
+                                "notaGeneral": 84.3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI1106",
+                    "nombre": "Comunicacion Escrita",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1t1": 72.9,
+                                "tema2t1": 67.1,
+                                "trabajo1": 85.6,
+                                "tema1t2": 72.4,
+                                "tema2t2": 69.2,
+                                "trabajo2": 70.8,
+                                "notaTrabajos": 78.2,
+                                "notaPresentacion": 89.9,
+                                "notaTotal": 84.1
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1t1": 73.0,
+                                "tema2t1": 75.5,
+                                "trabajo1": 81.9,
+                                "tema1t2": 87.9,
+                                "tema2t2": 62.5,
+                                "trabajo2": 84.7,
+                                "notaTrabajos": 83.3,
+                                "notaPresentacion": 73.9,
+                                "notaTotal": 78.6
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1t1": 75.4,
+                                "tema2t1": 97.0,
+                                "trabajo1": 77.9,
+                                "tema1t2": 94.4,
+                                "tema2t2": 83.8,
+                                "trabajo2": 94.4,
+                                "notaTrabajos": 86.2,
+                                "notaPresentacion": 82.5,
+                                "notaTotal": 84.3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "anio": 2023,
+                    "id": "MA1102",
+                    "nombre": "Calculo diferencial e integral",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 66.5,
+                                "tema2e1": 61.4,
+                                "tema3e1": 91.6,
+                                "examen1": 86.8,
+                                "tema1e2": 94.3,
+                                "tema2e2": 63.4,
+                                "tema3e2": 69.3,
+                                "examen2": 66.6,
+                                "tema1e3": 70.8,
+                                "tema2e3": 68.6,
+                                "tema3e3": 66.9,
+                                "examen3": 73.3,
+                                "totalExamenes": 75.6,
+                                "tareas": 72.5,
+                                "notaGeneral": 74.7
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 83.9,
+                                "tema2e1": 62.3,
+                                "tema3e1": 93.1,
+                                "examen1": 84.2,
+                                "tema1e2": 61.9,
+                                "tema2e2": 76.5,
+                                "tema3e2": 81.1,
+                                "examen2": 63.7,
+                                "tema1e3": 75.6,
+                                "tema2e3": 63.4,
+                                "tema3e3": 99.3,
+                                "examen3": 92.6,
+                                "totalExamenes": 80.2,
+                                "tareas": 77.5,
+                                "notaGeneral": 79.4
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 74.4,
+                                "tema2e1": 99.1,
+                                "tema3e1": 78.8,
+                                "examen1": 93.4,
+                                "tema1e2": 80.9,
+                                "tema2e2": 73.9,
+                                "tema3e2": 87.5,
+                                "examen2": 87.3,
+                                "tema1e3": 82.6,
+                                "tema2e3": 73.7,
+                                "tema3e3": 63.0,
+                                "examen3": 66.7,
+                                "totalExamenes": 82.5,
+                                "tareas": 79.3,
+                                "notaGeneral": 81.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "IC2101",
+                    "nombre": "Programacion orientada a objetos",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 65.7,
+                                "tema2p1": 84.3,
+                                "lab1t1": 93.8,
+                                "proyecto1": 93.5,
+                                "tema1p2": 79.5,
+                                "tema2p2": 91.6,
+                                "lab2t2": 94.9,
+                                "proyecto2": 82.3,
+                                "notaGeneralProyectos": 87.9,
+                                "notaGeneralLabs": 94.3,
+                                "totaTotal": 90.5
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1p1": 63.2,
+                                "tema2p1": 76.3,
+                                "lab1t1": 66.2,
+                                "proyecto1": 84.2,
+                                "tema1p2": 92.8,
+                                "tema2p2": 85.1,
+                                "lab2t2": 91.0,
+                                "proyecto2": 80.1,
+                                "notaGeneralProyectos": 82.2,
+                                "notaGeneralLabs": 78.6,
+                                "totaTotal": 80.8
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1p1": 73.5,
+                                "tema2p1": 60.9,
+                                "lab1t1": 82.9,
+                                "proyecto1": 64.4,
+                                "tema1p2": 98.2,
+                                "tema2p2": 92.8,
+                                "lab2t2": 83.0,
+                                "proyecto2": 92.9,
+                                "notaGeneralProyectos": 78.7,
+                                "notaGeneralLabs": 83.0,
+                                "totaTotal": 80.4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI1230",
+                    "nombre": "Ingles 1",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 91.0,
+                                "tema2e1": 99.5,
+                                "tema3e1": 87.2,
+                                "examen1": 71.2,
+                                "tema1e2": 80.3,
+                                "tema2e2": 71.9,
+                                "tema3e2": 91.4,
+                                "examen2": 83.9,
+                                "tema1e3": 66.8,
+                                "tema2e3": 74.4,
+                                "tema3e3": 70.1,
+                                "examen3": 99.7,
+                                "totalExamenes": 84.9,
+                                "tareas": 81.4,
+                                "notaGeneral": 83.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 63.7,
+                                "tema2e1": 73.5,
+                                "tema3e1": 87.7,
+                                "examen1": 93.1,
+                                "tema1e2": 95.4,
+                                "tema2e2": 71.6,
+                                "tema3e2": 73.2,
+                                "examen2": 99.7,
+                                "tema1e3": 88.1,
+                                "tema2e3": 67.3,
+                                "tema3e3": 67.8,
+                                "examen3": 84.3,
+                                "totalExamenes": 92.4,
+                                "tareas": 76.5,
+                                "notaGeneral": 87.6
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 69.5,
+                                "tema2e1": 81.9,
+                                "tema3e1": 69.1,
+                                "examen1": 79.1,
+                                "tema1e2": 62.6,
+                                "tema2e2": 64.0,
+                                "tema3e2": 61.6,
+                                "examen2": 62.3,
+                                "tema1e3": 84.5,
+                                "tema2e3": 73.2,
+                                "tema3e3": 80.7,
+                                "examen3": 71.4,
+                                "totalExamenes": 70.9,
+                                "tareas": 71.9,
+                                "notaGeneral": 71.2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI1107",
+                    "nombre": "Comunicacion Oral",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1t1": 89.2,
+                                "tema2t1": 68.0,
+                                "trabajo1": 84.4,
+                                "tema1t2": 88.9,
+                                "tema2t2": 65.8,
+                                "trabajo2": 77.7,
+                                "notaTrabajos": 81.1,
+                                "notaPresentacion": 76.6,
+                                "notaTotal": 78.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1t1": 85.3,
+                                "tema2t1": 80.6,
+                                "trabajo1": 86.1,
+                                "tema1t2": 98.8,
+                                "tema2t2": 72.3,
+                                "trabajo2": 64.4,
+                                "notaTrabajos": 75.2,
+                                "notaPresentacion": 95.1,
+                                "notaTotal": 85.2
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1t1": 92.0,
+                                "tema2t1": 75.4,
+                                "trabajo1": 96.7,
+                                "tema1t2": 84.7,
+                                "tema2t2": 73.8,
+                                "trabajo2": 84.3,
+                                "notaTrabajos": 90.5,
+                                "notaPresentacion": 76.9,
+                                "notaTotal": 83.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "MA1102",
+                    "nombre": "Calculo diferencial e integral",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 77.4,
+                                "tema2e1": 86.9,
+                                "tema3e1": 92.9,
+                                "examen1": 82.2,
+                                "tema1e2": 66.6,
+                                "tema2e2": 77.4,
+                                "tema3e2": 64.3,
+                                "examen2": 60.7,
+                                "tema1e3": 68.3,
+                                "tema2e3": 91.7,
+                                "tema3e3": 83.9,
+                                "examen3": 66.0,
+                                "totalExamenes": 69.6,
+                                "tareas": 78.8,
+                                "notaGeneral": 72.4
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 83.9,
+                                "tema2e1": 60.2,
+                                "tema3e1": 94.4,
+                                "examen1": 88.8,
+                                "tema1e2": 87.2,
+                                "tema2e2": 94.0,
+                                "tema3e2": 66.1,
+                                "examen2": 88.0,
+                                "tema1e3": 61.0,
+                                "tema2e3": 95.3,
+                                "tema3e3": 89.1,
+                                "examen3": 70.7,
+                                "totalExamenes": 82.5,
+                                "tareas": 81.2,
+                                "notaGeneral": 82.1
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 73.3,
+                                "tema2e1": 96.2,
+                                "tema3e1": 89.1,
+                                "examen1": 95.7,
+                                "tema1e2": 75.1,
+                                "tema2e2": 94.6,
+                                "tema3e2": 69.2,
+                                "examen2": 94.5,
+                                "tema1e3": 89.4,
+                                "tema2e3": 89.3,
+                                "tema3e3": 81.9,
+                                "examen3": 75.1,
+                                "totalExamenes": 88.4,
+                                "tareas": 84.2,
+                                "notaGeneral": 87.1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "IC2101",
+                    "nombre": "Programacion orientada a objetos",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1p1": 76.8,
+                                "tema2p1": 83.3,
+                                "lab1t1": 93.5,
+                                "proyecto1": 94.2,
+                                "tema1p2": 75.4,
+                                "tema2p2": 77.6,
+                                "lab2t2": 67.3,
+                                "proyecto2": 70.3,
+                                "notaGeneralProyectos": 82.2,
+                                "notaGeneralLabs": 80.4,
+                                "totaTotal": 81.5
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1p1": 76.1,
+                                "tema2p1": 85.0,
+                                "lab1t1": 60.6,
+                                "proyecto1": 72.1,
+                                "tema1p2": 94.7,
+                                "tema2p2": 70.7,
+                                "lab2t2": 99.7,
+                                "proyecto2": 84.4,
+                                "notaGeneralProyectos": 78.2,
+                                "notaGeneralLabs": 80.2,
+                                "totaTotal": 79.0
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1p1": 87.8,
+                                "tema2p1": 60.2,
+                                "lab1t1": 79.6,
+                                "proyecto1": 63.4,
+                                "tema1p2": 97.6,
+                                "tema2p2": 60.6,
+                                "lab2t2": 92.6,
+                                "proyecto2": 93.3,
+                                "notaGeneralProyectos": 78.3,
+                                "notaGeneralLabs": 86.1,
+                                "totaTotal": 81.4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI1230",
+                    "nombre": "Ingles 1",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 73.6,
+                                "tema2e1": 84.1,
+                                "tema3e1": 72.0,
+                                "examen1": 92.2,
+                                "tema1e2": 93.1,
+                                "tema2e2": 94.4,
+                                "tema3e2": 74.7,
+                                "examen2": 91.0,
+                                "tema1e3": 79.5,
+                                "tema2e3": 82.5,
+                                "tema3e3": 78.8,
+                                "examen3": 78.8,
+                                "totalExamenes": 87.3,
+                                "tareas": 81.4,
+                                "notaGeneral": 85.5
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 77.9,
+                                "tema2e1": 68.7,
+                                "tema3e1": 88.4,
+                                "examen1": 91.9,
+                                "tema1e2": 68.0,
+                                "tema2e2": 90.7,
+                                "tema3e2": 77.7,
+                                "examen2": 83.1,
+                                "tema1e3": 97.2,
+                                "tema2e3": 72.9,
+                                "tema3e3": 78.0,
+                                "examen3": 86.0,
+                                "totalExamenes": 87.0,
+                                "tareas": 79.9,
+                                "notaGeneral": 84.9
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 85.2,
+                                "tema2e1": 92.4,
+                                "tema3e1": 99.6,
+                                "examen1": 78.2,
+                                "tema1e2": 72.3,
+                                "tema2e2": 63.6,
+                                "tema3e2": 91.1,
+                                "examen2": 80.9,
+                                "tema1e3": 88.9,
+                                "tema2e3": 73.4,
+                                "tema3e3": 77.1,
+                                "examen3": 95.6,
+                                "totalExamenes": 84.9,
+                                "tareas": 82.6,
+                                "notaGeneral": 84.2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2023,
+                    "id": "CI1107",
+                    "nombre": "Comunicacion Oral",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1t1": 97.5,
+                                "tema2t1": 91.2,
+                                "trabajo1": 83.0,
+                                "tema1t2": 63.1,
+                                "tema2t2": 63.7,
+                                "trabajo2": 64.8,
+                                "notaTrabajos": 73.9,
+                                "notaPresentacion": 89.1,
+                                "notaTotal": 81.5
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1t1": 76.9,
+                                "tema2t1": 96.1,
+                                "trabajo1": 74.7,
+                                "tema1t2": 72.4,
+                                "tema2t2": 75.1,
+                                "trabajo2": 77.9,
+                                "notaTrabajos": 76.3,
+                                "notaPresentacion": 94.9,
+                                "notaTotal": 85.6
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1t1": 60.8,
+                                "tema2t1": 70.1,
+                                "trabajo1": 74.2,
+                                "tema1t2": 96.1,
+                                "tema2t2": 70.5,
+                                "trabajo2": 72.3,
+                                "notaTrabajos": 73.2,
+                                "notaPresentacion": 73.1,
+                                "notaTotal": 73.2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "2024": {
+            "1": [
+                {
+                    "anio": 2024,
+                    "id": "MA1103",
+                    "nombre": "Calculo y álgebra lineal",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 61.1,
+                                "tema2e1": 79.8,
+                                "tema3e1": 69.5,
+                                "examen1": 80.9,
+                                "tema1e2": 66.1,
+                                "tema2e2": 98.8,
+                                "tema3e2": 85.4,
+                                "examen2": 77.5,
+                                "tema1e3": 94.0,
+                                "tema2e3": 97.6,
+                                "tema3e3": 97.7,
+                                "examen3": 85.2,
+                                "totalExamenes": 81.2,
+                                "tareas": 83.3,
+                                "notaGeneral": 81.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 71.6,
+                                "tema2e1": 77.7,
+                                "tema3e1": 88.8,
+                                "examen1": 99.8,
+                                "tema1e2": 72.3,
+                                "tema2e2": 64.3,
+                                "tema3e2": 77.1,
+                                "examen2": 74.9,
+                                "tema1e3": 75.2,
+                                "tema2e3": 86.3,
+                                "tema3e3": 88.8,
+                                "examen3": 92.5,
+                                "totalExamenes": 89.1,
+                                "tareas": 78.0,
+                                "notaGeneral": 85.8
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 63.0,
+                                "tema2e1": 97.1,
+                                "tema3e1": 85.5,
+                                "examen1": 95.7,
+                                "tema1e2": 80.7,
+                                "tema2e2": 98.7,
+                                "tema3e2": 73.1,
+                                "examen2": 89.8,
+                                "tema1e3": 62.2,
+                                "tema2e3": 71.7,
+                                "tema3e3": 81.6,
+                                "examen3": 84.1,
+                                "totalExamenes": 89.9,
+                                "tareas": 79.3,
+                                "notaGeneral": 86.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "IC3002",
+                    "nombre": "Analisis de algoritmos",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 86.2,
+                                "tema2p1": 74.4,
+                                "lab1t1": 71.9,
+                                "proyecto1": 72.3,
+                                "tema1p2": 99.8,
+                                "tema2p2": 99.6,
+                                "lab2t2": 73.3,
+                                "proyecto2": 68.8,
+                                "notaGeneralProyectos": 70.5,
+                                "notaGeneralLabs": 72.6,
+                                "totaTotal": 71.3
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1p1": 91.1,
+                                "tema2p1": 86.1,
+                                "lab1t1": 91.8,
+                                "proyecto1": 78.5,
+                                "tema1p2": 82.1,
+                                "tema2p2": 61.2,
+                                "lab2t2": 71.8,
+                                "proyecto2": 70.8,
+                                "notaGeneralProyectos": 74.7,
+                                "notaGeneralLabs": 81.8,
+                                "totaTotal": 77.5
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1p1": 74.9,
+                                "tema2p1": 61.0,
+                                "lab1t1": 84.7,
+                                "proyecto1": 82.2,
+                                "tema1p2": 66.7,
+                                "tema2p2": 92.9,
+                                "lab2t2": 72.4,
+                                "proyecto2": 93.0,
+                                "notaGeneralProyectos": 87.6,
+                                "notaGeneralLabs": 78.6,
+                                "totaTotal": 84.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CI1231",
+                    "nombre": "Ingles 2",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 88.6,
+                                "tema2e1": 78.6,
+                                "tema3e1": 70.1,
+                                "examen1": 68.7,
+                                "tema1e2": 62.7,
+                                "tema2e2": 63.6,
+                                "tema3e2": 95.9,
+                                "examen2": 89.4,
+                                "tema1e3": 70.4,
+                                "tema2e3": 90.1,
+                                "tema3e3": 64.5,
+                                "examen3": 73.6,
+                                "totalExamenes": 77.2,
+                                "tareas": 76.1,
+                                "notaGeneral": 76.9
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 97.4,
+                                "tema2e1": 73.7,
+                                "tema3e1": 88.3,
+                                "examen1": 76.0,
+                                "tema1e2": 71.4,
+                                "tema2e2": 71.4,
+                                "tema3e2": 68.7,
+                                "examen2": 89.9,
+                                "tema1e3": 71.9,
+                                "tema2e3": 91.8,
+                                "tema3e3": 79.2,
+                                "examen3": 64.7,
+                                "totalExamenes": 76.9,
+                                "tareas": 79.3,
+                                "notaGeneral": 77.6
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 60.1,
+                                "tema2e1": 97.5,
+                                "tema3e1": 66.0,
+                                "examen1": 87.6,
+                                "tema1e2": 95.5,
+                                "tema2e2": 94.6,
+                                "tema3e2": 71.7,
+                                "examen2": 81.0,
+                                "tema1e3": 96.0,
+                                "tema2e3": 89.4,
+                                "tema3e3": 97.0,
+                                "examen3": 68.4,
+                                "totalExamenes": 79.0,
+                                "tareas": 85.3,
+                                "notaGeneral": 80.9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CS2101",
+                    "nombre": "Ambiente Humano",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1t1": 92.8,
+                                "tema2t1": 82.1,
+                                "trabajo1": 72.0,
+                                "tema1t2": 89.5,
+                                "tema2t2": 68.8,
+                                "trabajo2": 61.1,
+                                "notaTrabajos": 66.5,
+                                "notaPresentacion": 76.7,
+                                "notaTotal": 71.6
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1t1": 95.4,
+                                "tema2t1": 75.4,
+                                "trabajo1": 89.3,
+                                "tema1t2": 87.5,
+                                "tema2t2": 95.7,
+                                "trabajo2": 75.2,
+                                "notaTrabajos": 82.2,
+                                "notaPresentacion": 74.2,
+                                "notaTotal": 78.2
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1t1": 98.6,
+                                "tema2t1": 94.9,
+                                "trabajo1": 71.2,
+                                "tema1t2": 88.4,
+                                "tema2t2": 71.6,
+                                "trabajo2": 90.7,
+                                "notaTrabajos": 81.0,
+                                "notaPresentacion": 70.5,
+                                "notaTotal": 75.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "MA1103",
+                    "nombre": "Calculo y álgebra lineal",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 99.5,
+                                "tema2e1": 61.5,
+                                "tema3e1": 84.1,
+                                "examen1": 76.4,
+                                "tema1e2": 80.5,
+                                "tema2e2": 72.9,
+                                "tema3e2": 70.7,
+                                "examen2": 63.4,
+                                "tema1e3": 69.9,
+                                "tema2e3": 71.2,
+                                "tema3e3": 89.1,
+                                "examen3": 99.7,
+                                "totalExamenes": 79.8,
+                                "tareas": 77.7,
+                                "notaGeneral": 79.2
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 99.1,
+                                "tema2e1": 60.6,
+                                "tema3e1": 82.8,
+                                "examen1": 64.9,
+                                "tema1e2": 77.0,
+                                "tema2e2": 77.7,
+                                "tema3e2": 77.3,
+                                "examen2": 74.2,
+                                "tema1e3": 70.0,
+                                "tema2e3": 65.3,
+                                "tema3e3": 68.4,
+                                "examen3": 87.8,
+                                "totalExamenes": 75.6,
+                                "tareas": 75.4,
+                                "notaGeneral": 75.5
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 95.6,
+                                "tema2e1": 96.4,
+                                "tema3e1": 89.3,
+                                "examen1": 96.3,
+                                "tema1e2": 81.8,
+                                "tema2e2": 62.4,
+                                "tema3e2": 81.0,
+                                "examen2": 93.4,
+                                "tema1e3": 61.7,
+                                "tema2e3": 84.5,
+                                "tema3e3": 62.1,
+                                "examen3": 97.8,
+                                "totalExamenes": 95.8,
+                                "tareas": 79.4,
+                                "notaGeneral": 90.9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "IC3002",
+                    "nombre": "Analisis de algoritmos",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1p1": 76.8,
+                                "tema2p1": 80.2,
+                                "lab1t1": 93.5,
+                                "proyecto1": 85.1,
+                                "tema1p2": 95.0,
+                                "tema2p2": 81.2,
+                                "lab2t2": 98.7,
+                                "proyecto2": 77.1,
+                                "notaGeneralProyectos": 81.1,
+                                "notaGeneralLabs": 96.1,
+                                "totaTotal": 87.1
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1p1": 62.2,
+                                "tema2p1": 70.7,
+                                "lab1t1": 85.9,
+                                "proyecto1": 66.3,
+                                "tema1p2": 62.7,
+                                "tema2p2": 65.1,
+                                "lab2t2": 77.7,
+                                "proyecto2": 99.0,
+                                "notaGeneralProyectos": 82.7,
+                                "notaGeneralLabs": 81.8,
+                                "totaTotal": 82.3
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1p1": 80.8,
+                                "tema2p1": 60.7,
+                                "lab1t1": 71.4,
+                                "proyecto1": 95.7,
+                                "tema1p2": 87.9,
+                                "tema2p2": 78.3,
+                                "lab2t2": 87.6,
+                                "proyecto2": 100.0,
+                                "notaGeneralProyectos": 97.8,
+                                "notaGeneralLabs": 79.5,
+                                "totaTotal": 90.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CI1231",
+                    "nombre": "Ingles 2",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 65.2,
+                                "tema2e1": 98.9,
+                                "tema3e1": 74.8,
+                                "examen1": 73.8,
+                                "tema1e2": 79.1,
+                                "tema2e2": 93.9,
+                                "tema3e2": 95.5,
+                                "examen2": 65.7,
+                                "tema1e3": 89.0,
+                                "tema2e3": 75.1,
+                                "tema3e3": 80.2,
+                                "examen3": 85.0,
+                                "totalExamenes": 74.8,
+                                "tareas": 83.5,
+                                "notaGeneral": 77.4
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 91.5,
+                                "tema2e1": 62.1,
+                                "tema3e1": 85.0,
+                                "examen1": 98.8,
+                                "tema1e2": 69.3,
+                                "tema2e2": 88.8,
+                                "tema3e2": 71.8,
+                                "examen2": 64.1,
+                                "tema1e3": 85.4,
+                                "tema2e3": 99.6,
+                                "tema3e3": 73.5,
+                                "examen3": 76.5,
+                                "totalExamenes": 79.8,
+                                "tareas": 80.8,
+                                "notaGeneral": 80.1
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 75.0,
+                                "tema2e1": 92.0,
+                                "tema3e1": 97.3,
+                                "examen1": 95.4,
+                                "tema1e2": 87.0,
+                                "tema2e2": 76.8,
+                                "tema3e2": 74.2,
+                                "examen2": 66.2,
+                                "tema1e3": 87.9,
+                                "tema2e3": 72.7,
+                                "tema3e3": 63.7,
+                                "examen3": 60.2,
+                                "totalExamenes": 73.9,
+                                "tareas": 80.7,
+                                "notaGeneral": 75.9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CS2101",
+                    "nombre": "Ambiente Humano",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1t1": 67.0,
+                                "tema2t1": 64.4,
+                                "trabajo1": 64.3,
+                                "tema1t2": 79.4,
+                                "tema2t2": 73.8,
+                                "trabajo2": 76.5,
+                                "notaTrabajos": 70.4,
+                                "notaPresentacion": 93.7,
+                                "notaTotal": 82.1
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1t1": 96.7,
+                                "tema2t1": 70.1,
+                                "trabajo1": 88.8,
+                                "tema1t2": 81.4,
+                                "tema2t2": 74.6,
+                                "trabajo2": 66.0,
+                                "notaTrabajos": 77.4,
+                                "notaPresentacion": 89.8,
+                                "notaTotal": 83.6
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1t1": 68.6,
+                                "tema2t1": 68.1,
+                                "trabajo1": 87.4,
+                                "tema1t2": 88.8,
+                                "tema2t2": 88.4,
+                                "trabajo2": 61.2,
+                                "notaTrabajos": 74.3,
+                                "notaPresentacion": 97.1,
+                                "notaTotal": 85.7
+                            }
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "anio": 2024,
+                    "id": "MA2404",
+                    "nombre": "Probabilidades",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 62.5,
+                                "tema2e1": 78.5,
+                                "tema3e1": 90.5,
+                                "examen1": 78.9,
+                                "tema1e2": 70.2,
+                                "tema2e2": 61.6,
+                                "tema3e2": 68.9,
+                                "examen2": 82.8,
+                                "tema1e3": 94.5,
+                                "tema2e3": 92.2,
+                                "tema3e3": 74.6,
+                                "examen3": 77.6,
+                                "totalExamenes": 79.8,
+                                "tareas": 77.1,
+                                "notaGeneral": 79.0
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 95.3,
+                                "tema2e1": 77.6,
+                                "tema3e1": 95.3,
+                                "examen1": 67.8,
+                                "tema1e2": 74.0,
+                                "tema2e2": 86.4,
+                                "tema3e2": 89.7,
+                                "examen2": 90.9,
+                                "tema1e3": 91.1,
+                                "tema2e3": 96.5,
+                                "tema3e3": 71.2,
+                                "examen3": 83.2,
+                                "totalExamenes": 80.6,
+                                "tareas": 86.3,
+                                "notaGeneral": 82.3
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 86.6,
+                                "tema2e1": 62.2,
+                                "tema3e1": 85.7,
+                                "examen1": 95.0,
+                                "tema1e2": 93.3,
+                                "tema2e2": 98.7,
+                                "tema3e2": 87.9,
+                                "examen2": 95.8,
+                                "tema1e3": 83.8,
+                                "tema2e3": 65.8,
+                                "tema3e3": 77.5,
+                                "examen3": 61.1,
+                                "totalExamenes": 84.0,
+                                "tareas": 82.4,
+                                "notaGeneral": 83.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "IC4700",
+                    "nombre": "Lenguajes de programacion",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 67.4,
+                                "tema2p1": 98.4,
+                                "lab1t1": 78.5,
+                                "proyecto1": 77.8,
+                                "tema1p2": 76.7,
+                                "tema2p2": 83.8,
+                                "lab2t2": 64.7,
+                                "proyecto2": 87.6,
+                                "notaGeneralProyectos": 82.7,
+                                "notaGeneralLabs": 71.6,
+                                "totaTotal": 78.3
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1p1": 81.8,
+                                "tema2p1": 88.9,
+                                "lab1t1": 70.0,
+                                "proyecto1": 68.7,
+                                "tema1p2": 83.8,
+                                "tema2p2": 63.2,
+                                "lab2t2": 78.6,
+                                "proyecto2": 77.9,
+                                "notaGeneralProyectos": 73.3,
+                                "notaGeneralLabs": 74.3,
+                                "totaTotal": 73.7
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1p1": 85.8,
+                                "tema2p1": 76.8,
+                                "lab1t1": 71.4,
+                                "proyecto1": 79.5,
+                                "tema1p2": 92.3,
+                                "tema2p2": 77.0,
+                                "lab2t2": 99.9,
+                                "proyecto2": 87.1,
+                                "notaGeneralProyectos": 83.3,
+                                "notaGeneralLabs": 85.7,
+                                "totaTotal": 84.3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CI1232",
+                    "nombre": "Ingles 3",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 67.8,
+                                "tema2e1": 82.2,
+                                "tema3e1": 71.0,
+                                "examen1": 90.1,
+                                "tema1e2": 64.8,
+                                "tema2e2": 80.1,
+                                "tema3e2": 80.4,
+                                "examen2": 64.1,
+                                "tema1e3": 73.7,
+                                "tema2e3": 60.3,
+                                "tema3e3": 79.1,
+                                "examen3": 63.5,
+                                "totalExamenes": 72.6,
+                                "tareas": 73.3,
+                                "notaGeneral": 72.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 91.0,
+                                "tema2e1": 61.1,
+                                "tema3e1": 73.5,
+                                "examen1": 74.1,
+                                "tema1e2": 74.6,
+                                "tema2e2": 91.4,
+                                "tema3e2": 88.3,
+                                "examen2": 77.6,
+                                "tema1e3": 97.8,
+                                "tema2e3": 99.0,
+                                "tema3e3": 80.0,
+                                "examen3": 92.5,
+                                "totalExamenes": 81.4,
+                                "tareas": 84.1,
+                                "notaGeneral": 82.2
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 66.0,
+                                "tema2e1": 63.7,
+                                "tema3e1": 93.7,
+                                "examen1": 79.5,
+                                "tema1e2": 96.4,
+                                "tema2e2": 95.5,
+                                "tema3e2": 100.0,
+                                "examen2": 67.7,
+                                "tema1e3": 79.1,
+                                "tema2e3": 87.8,
+                                "tema3e3": 97.0,
+                                "examen3": 90.3,
+                                "totalExamenes": 79.2,
+                                "tareas": 86.6,
+                                "notaGeneral": 81.4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CS3401",
+                    "nombre": "Seminario de estudios filosoficos historicos",
+                    "profe": "2025000001",
+                    "semestre": 2,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1t1": 85.1,
+                                "tema2t1": 83.1,
+                                "trabajo1": 67.4,
+                                "tema1t2": 61.8,
+                                "tema2t2": 77.1,
+                                "trabajo2": 76.2,
+                                "notaTrabajos": 71.8,
+                                "notaPresentacion": 75.7,
+                                "notaTotal": 73.8
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1t1": 69.2,
+                                "tema2t1": 80.0,
+                                "trabajo1": 62.7,
+                                "tema1t2": 63.2,
+                                "tema2t2": 81.4,
+                                "trabajo2": 77.0,
+                                "notaTrabajos": 69.8,
+                                "notaPresentacion": 99.5,
+                                "notaTotal": 84.7
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1t1": 64.8,
+                                "tema2t1": 81.4,
+                                "trabajo1": 96.1,
+                                "tema1t2": 63.5,
+                                "tema2t2": 74.1,
+                                "trabajo2": 78.5,
+                                "notaTrabajos": 87.3,
+                                "notaPresentacion": 81.7,
+                                "notaTotal": 84.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "MA2404",
+                    "nombre": "Probabilidades",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 84.5,
+                                "tema2e1": 95.7,
+                                "tema3e1": 96.5,
+                                "examen1": 61.7,
+                                "tema1e2": 86.1,
+                                "tema2e2": 84.9,
+                                "tema3e2": 71.8,
+                                "examen2": 66.2,
+                                "tema1e3": 83.1,
+                                "tema2e3": 82.5,
+                                "tema3e3": 61.4,
+                                "examen3": 70.5,
+                                "totalExamenes": 66.1,
+                                "tareas": 82.9,
+                                "notaGeneral": 71.1
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 86.4,
+                                "tema2e1": 84.0,
+                                "tema3e1": 81.9,
+                                "examen1": 79.9,
+                                "tema1e2": 74.8,
+                                "tema2e2": 84.3,
+                                "tema3e2": 62.0,
+                                "examen2": 87.1,
+                                "tema1e3": 98.3,
+                                "tema2e3": 71.0,
+                                "tema3e3": 80.6,
+                                "examen3": 63.6,
+                                "totalExamenes": 76.9,
+                                "tareas": 80.4,
+                                "notaGeneral": 78.0
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 64.2,
+                                "tema2e1": 70.6,
+                                "tema3e1": 63.3,
+                                "examen1": 98.3,
+                                "tema1e2": 77.9,
+                                "tema2e2": 69.5,
+                                "tema3e2": 99.6,
+                                "examen2": 74.4,
+                                "tema1e3": 91.9,
+                                "tema2e3": 64.0,
+                                "tema3e3": 97.8,
+                                "examen3": 86.4,
+                                "totalExamenes": 86.4,
+                                "tareas": 77.6,
+                                "notaGeneral": 83.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "IC4700",
+                    "nombre": "Lenguajes de programacion",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1p1": 72.2,
+                                "tema2p1": 61.8,
+                                "lab1t1": 91.4,
+                                "proyecto1": 61.3,
+                                "tema1p2": 96.7,
+                                "tema2p2": 67.5,
+                                "lab2t2": 68.8,
+                                "proyecto2": 97.4,
+                                "notaGeneralProyectos": 79.3,
+                                "notaGeneralLabs": 80.1,
+                                "totaTotal": 79.6
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1p1": 98.9,
+                                "tema2p1": 84.0,
+                                "lab1t1": 64.9,
+                                "proyecto1": 80.5,
+                                "tema1p2": 64.2,
+                                "tema2p2": 95.2,
+                                "lab2t2": 85.3,
+                                "proyecto2": 60.3,
+                                "notaGeneralProyectos": 70.4,
+                                "notaGeneralLabs": 75.1,
+                                "totaTotal": 72.3
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1p1": 74.5,
+                                "tema2p1": 97.2,
+                                "lab1t1": 96.1,
+                                "proyecto1": 90.8,
+                                "tema1p2": 72.3,
+                                "tema2p2": 88.6,
+                                "lab2t2": 66.9,
+                                "proyecto2": 88.8,
+                                "notaGeneralProyectos": 89.8,
+                                "notaGeneralLabs": 81.5,
+                                "totaTotal": 86.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CI1232",
+                    "nombre": "Ingles 3",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 64.5,
+                                "tema2e1": 83.8,
+                                "tema3e1": 89.5,
+                                "examen1": 94.5,
+                                "tema1e2": 79.1,
+                                "tema2e2": 91.7,
+                                "tema3e2": 70.9,
+                                "examen2": 98.2,
+                                "tema1e3": 96.2,
+                                "tema2e3": 68.2,
+                                "tema3e3": 63.8,
+                                "examen3": 65.8,
+                                "totalExamenes": 86.2,
+                                "tareas": 78.6,
+                                "notaGeneral": 83.9
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 86.1,
+                                "tema2e1": 92.8,
+                                "tema3e1": 90.3,
+                                "examen1": 87.3,
+                                "tema1e2": 84.3,
+                                "tema2e2": 85.4,
+                                "tema3e2": 64.8,
+                                "examen2": 70.5,
+                                "tema1e3": 93.0,
+                                "tema2e3": 95.3,
+                                "tema3e3": 64.0,
+                                "examen3": 99.7,
+                                "totalExamenes": 85.8,
+                                "tareas": 84.0,
+                                "notaGeneral": 85.3
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 68.9,
+                                "tema2e1": 80.8,
+                                "tema3e1": 82.6,
+                                "examen1": 82.3,
+                                "tema1e2": 97.6,
+                                "tema2e2": 90.9,
+                                "tema3e2": 95.2,
+                                "examen2": 98.2,
+                                "tema1e3": 70.4,
+                                "tema2e3": 66.4,
+                                "tema3e3": 85.4,
+                                "examen3": 87.3,
+                                "totalExamenes": 89.3,
+                                "tareas": 82.0,
+                                "notaGeneral": 87.1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2024,
+                    "id": "CS3401",
+                    "nombre": "Seminario de estudios filosoficos historicos",
+                    "profe": "2025000002",
+                    "semestre": 2,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1t1": 80.8,
+                                "tema2t1": 79.3,
+                                "trabajo1": 86.0,
+                                "tema1t2": 82.0,
+                                "tema2t2": 98.4,
+                                "trabajo2": 66.1,
+                                "notaTrabajos": 76.0,
+                                "notaPresentacion": 89.7,
+                                "notaTotal": 82.8
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1t1": 71.8,
+                                "tema2t1": 87.8,
+                                "trabajo1": 63.1,
+                                "tema1t2": 60.9,
+                                "tema2t2": 75.2,
+                                "trabajo2": 91.1,
+                                "notaTrabajos": 77.1,
+                                "notaPresentacion": 70.9,
+                                "notaTotal": 74.0
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1t1": 73.7,
+                                "tema2t1": 91.6,
+                                "trabajo1": 84.7,
+                                "tema1t2": 91.1,
+                                "tema2t2": 76.6,
+                                "trabajo2": 93.4,
+                                "notaTrabajos": 89.1,
+                                "notaPresentacion": 82.7,
+                                "notaTotal": 85.9
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "2025": {
+            "1": [
+                {
+                    "anio": 2025,
+                    "id": "MA3405",
+                    "nombre": "Estadística",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 71.4,
+                                "tema2e1": 79.6,
+                                "tema3e1": 91.5,
+                                "examen1": 63.2,
+                                "tema1e2": 64.7,
+                                "tema2e2": 77.5,
+                                "tema3e2": 94.7,
+                                "examen2": 99.2,
+                                "tema1e3": 79.2,
+                                "tema2e3": 75.8,
+                                "tema3e3": 71.9,
+                                "examen3": 62.8,
+                                "totalExamenes": 75.1,
+                                "tareas": 78.5,
+                                "notaGeneral": 76.1
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 60.8,
+                                "tema2e1": 66.4,
+                                "tema3e1": 81.7,
+                                "examen1": 84.3,
+                                "tema1e2": 81.3,
+                                "tema2e2": 74.6,
+                                "tema3e2": 87.1,
+                                "examen2": 64.5,
+                                "tema1e3": 81.4,
+                                "tema2e3": 72.9,
+                                "tema3e3": 65.7,
+                                "examen3": 84.8,
+                                "totalExamenes": 77.9,
+                                "tareas": 74.7,
+                                "notaGeneral": 76.9
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 60.6,
+                                "tema2e1": 67.1,
+                                "tema3e1": 63.3,
+                                "examen1": 99.1,
+                                "tema1e2": 72.6,
+                                "tema2e2": 88.9,
+                                "tema3e2": 81.8,
+                                "examen2": 82.6,
+                                "tema1e3": 82.6,
+                                "tema2e3": 83.4,
+                                "tema3e3": 84.9,
+                                "examen3": 77.3,
+                                "totalExamenes": 86.3,
+                                "tareas": 76.1,
+                                "notaGeneral": 83.2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "IC5701",
+                    "nombre": "Compiladores e interpretes",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1p1": 87.6,
+                                "tema2p1": 94.0,
+                                "lab1t1": 85.9,
+                                "proyecto1": 79.9,
+                                "tema1p2": 88.1,
+                                "tema2p2": 87.5,
+                                "lab2t2": 82.7,
+                                "proyecto2": 94.5,
+                                "notaGeneralProyectos": 87.2,
+                                "notaGeneralLabs": 84.3,
+                                "totaTotal": 86.0
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1p1": 90.3,
+                                "tema2p1": 86.2,
+                                "lab1t1": 99.9,
+                                "proyecto1": 75.5,
+                                "tema1p2": 78.6,
+                                "tema2p2": 94.2,
+                                "lab2t2": 66.9,
+                                "proyecto2": 96.6,
+                                "notaGeneralProyectos": 86.0,
+                                "notaGeneralLabs": 83.4,
+                                "totaTotal": 85.0
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1p1": 67.1,
+                                "tema2p1": 96.6,
+                                "lab1t1": 91.6,
+                                "proyecto1": 90.3,
+                                "tema1p2": 87.6,
+                                "tema2p2": 81.2,
+                                "lab2t2": 89.1,
+                                "proyecto2": 85.1,
+                                "notaGeneralProyectos": 87.7,
+                                "notaGeneralLabs": 90.3,
+                                "totaTotal": 88.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "CI1233",
+                    "nombre": "Ingles 4",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1e1": 62.6,
+                                "tema2e1": 66.0,
+                                "tema3e1": 69.2,
+                                "examen1": 98.3,
+                                "tema1e2": 78.0,
+                                "tema2e2": 83.3,
+                                "tema3e2": 87.6,
+                                "examen2": 67.4,
+                                "tema1e3": 87.3,
+                                "tema2e3": 84.2,
+                                "tema3e3": 62.4,
+                                "examen3": 97.5,
+                                "totalExamenes": 87.7,
+                                "tareas": 75.6,
+                                "notaGeneral": 84.1
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1e1": 65.4,
+                                "tema2e1": 69.4,
+                                "tema3e1": 70.3,
+                                "examen1": 90.8,
+                                "tema1e2": 79.4,
+                                "tema2e2": 96.7,
+                                "tema3e2": 81.1,
+                                "examen2": 89.0,
+                                "tema1e3": 89.4,
+                                "tema2e3": 76.0,
+                                "tema3e3": 73.2,
+                                "examen3": 63.6,
+                                "totalExamenes": 81.1,
+                                "tareas": 77.9,
+                                "notaGeneral": 80.1
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1e1": 98.9,
+                                "tema2e1": 87.1,
+                                "tema3e1": 85.0,
+                                "examen1": 68.6,
+                                "tema1e2": 90.7,
+                                "tema2e2": 83.4,
+                                "tema3e2": 64.3,
+                                "examen2": 92.9,
+                                "tema1e3": 63.1,
+                                "tema2e3": 98.0,
+                                "tema3e3": 88.9,
+                                "examen3": 89.9,
+                                "totalExamenes": 83.8,
+                                "tareas": 84.4,
+                                "notaGeneral": 84.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "AE4208",
+                    "nombre": "Desarrollo de emprendedores",
+                    "profe": "2025000001",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000001",
+                            "nombre": "Byron",
+                            "notas": {
+                                "tema1t1": 61.1,
+                                "tema2t1": 68.6,
+                                "trabajo1": 87.4,
+                                "tema1t2": 60.6,
+                                "tema2t2": 91.9,
+                                "trabajo2": 64.8,
+                                "notaTrabajos": 76.1,
+                                "notaPresentacion": 76.9,
+                                "notaTotal": 76.5
+                            }
+                        },
+                        {
+                            "id": "20250000002",
+                            "nombre": "Joseph",
+                            "notas": {
+                                "tema1t1": 96.2,
+                                "tema2t1": 95.4,
+                                "trabajo1": 91.9,
+                                "tema1t2": 65.5,
+                                "tema2t2": 73.4,
+                                "trabajo2": 86.5,
+                                "notaTrabajos": 89.2,
+                                "notaPresentacion": 97.4,
+                                "notaTotal": 93.3
+                            }
+                        },
+                        {
+                            "id": "20250000003",
+                            "nombre": "Kenny",
+                            "notas": {
+                                "tema1t1": 97.6,
+                                "tema2t1": 80.0,
+                                "trabajo1": 71.0,
+                                "tema1t2": 79.7,
+                                "tema2t2": 100.0,
+                                "trabajo2": 99.2,
+                                "notaTrabajos": 85.1,
+                                "notaPresentacion": 95.2,
+                                "notaTotal": 90.2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "MA3405",
+                    "nombre": "Estadística",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "matematico",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 82.7,
+                                "tema2e1": 89.9,
+                                "tema3e1": 75.9,
+                                "examen1": 66.5,
+                                "tema1e2": 93.9,
+                                "tema2e2": 68.6,
+                                "tema3e2": 99.4,
+                                "examen2": 60.4,
+                                "tema1e3": 83.4,
+                                "tema2e3": 93.1,
+                                "tema3e3": 80.4,
+                                "examen3": 80.5,
+                                "totalExamenes": 69.1,
+                                "tareas": 85.3,
+                                "notaGeneral": 74.0
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 74.5,
+                                "tema2e1": 85.1,
+                                "tema3e1": 61.1,
+                                "examen1": 92.0,
+                                "tema1e2": 90.3,
+                                "tema2e2": 74.0,
+                                "tema3e2": 77.8,
+                                "examen2": 90.0,
+                                "tema1e3": 70.0,
+                                "tema2e3": 86.9,
+                                "tema3e3": 90.6,
+                                "examen3": 77.1,
+                                "totalExamenes": 86.4,
+                                "tareas": 78.9,
+                                "notaGeneral": 84.2
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 99.4,
+                                "tema2e1": 67.0,
+                                "tema3e1": 87.7,
+                                "examen1": 62.3,
+                                "tema1e2": 82.9,
+                                "tema2e2": 76.3,
+                                "tema3e2": 92.1,
+                                "examen2": 99.2,
+                                "tema1e3": 68.6,
+                                "tema2e3": 71.5,
+                                "tema3e3": 77.8,
+                                "examen3": 88.8,
+                                "totalExamenes": 83.4,
+                                "tareas": 80.4,
+                                "notaGeneral": 82.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "IC5701",
+                    "nombre": "Compiladores e interpretes",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "carrera",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1p1": 97.8,
+                                "tema2p1": 89.2,
+                                "lab1t1": 83.5,
+                                "proyecto1": 73.1,
+                                "tema1p2": 88.5,
+                                "tema2p2": 95.6,
+                                "lab2t2": 63.7,
+                                "proyecto2": 90.8,
+                                "notaGeneralProyectos": 81.9,
+                                "notaGeneralLabs": 73.6,
+                                "totaTotal": 78.6
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1p1": 78.2,
+                                "tema2p1": 92.4,
+                                "lab1t1": 77.5,
+                                "proyecto1": 94.7,
+                                "tema1p2": 77.4,
+                                "tema2p2": 87.6,
+                                "lab2t2": 93.3,
+                                "proyecto2": 66.8,
+                                "notaGeneralProyectos": 80.8,
+                                "notaGeneralLabs": 85.4,
+                                "totaTotal": 82.6
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1p1": 60.7,
+                                "tema2p1": 79.5,
+                                "lab1t1": 71.0,
+                                "proyecto1": 91.2,
+                                "tema1p2": 65.1,
+                                "tema2p2": 87.5,
+                                "lab2t2": 70.8,
+                                "proyecto2": 93.4,
+                                "notaGeneralProyectos": 92.3,
+                                "notaGeneralLabs": 70.9,
+                                "totaTotal": 83.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "CI1233",
+                    "nombre": "Ingles 4",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "ingles",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1e1": 82.1,
+                                "tema2e1": 86.3,
+                                "tema3e1": 61.0,
+                                "examen1": 85.7,
+                                "tema1e2": 63.2,
+                                "tema2e2": 78.0,
+                                "tema3e2": 67.9,
+                                "examen2": 71.2,
+                                "tema1e3": 99.0,
+                                "tema2e3": 91.9,
+                                "tema3e3": 60.7,
+                                "examen3": 89.9,
+                                "totalExamenes": 82.3,
+                                "tareas": 76.7,
+                                "notaGeneral": 80.6
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1e1": 75.0,
+                                "tema2e1": 68.7,
+                                "tema3e1": 61.5,
+                                "examen1": 95.6,
+                                "tema1e2": 93.9,
+                                "tema2e2": 81.7,
+                                "tema3e2": 92.8,
+                                "examen2": 96.9,
+                                "tema1e3": 86.0,
+                                "tema2e3": 73.4,
+                                "tema3e3": 66.1,
+                                "examen3": 86.2,
+                                "totalExamenes": 92.9,
+                                "tareas": 77.7,
+                                "notaGeneral": 88.3
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1e1": 67.2,
+                                "tema2e1": 96.7,
+                                "tema3e1": 83.2,
+                                "examen1": 95.0,
+                                "tema1e2": 65.8,
+                                "tema2e2": 93.6,
+                                "tema3e2": 63.7,
+                                "examen2": 79.6,
+                                "tema1e3": 97.2,
+                                "tema2e3": 62.9,
+                                "tema3e3": 81.4,
+                                "examen3": 91.6,
+                                "totalExamenes": 88.7,
+                                "tareas": 79.1,
+                                "notaGeneral": 85.8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "anio": 2025,
+                    "id": "AE4208",
+                    "nombre": "Desarrollo de emprendedores",
+                    "profe": "2025000002",
+                    "semestre": 1,
+                    "tipo": "otro",
+                    "estudiantes": [
+                        {
+                            "id": "20250000004",
+                            "nombre": "Andres",
+                            "notas": {
+                                "tema1t1": 67.2,
+                                "tema2t1": 96.7,
+                                "trabajo1": 64.5,
+                                "tema1t2": 99.1,
+                                "tema2t2": 97.8,
+                                "trabajo2": 93.7,
+                                "notaTrabajos": 79.1,
+                                "notaPresentacion": 83.8,
+                                "notaTotal": 81.4
+                            }
+                        },
+                        {
+                            "id": "20250000005",
+                            "nombre": "Gustavo",
+                            "notas": {
+                                "tema1t1": 63.2,
+                                "tema2t1": 72.0,
+                                "trabajo1": 97.9,
+                                "tema1t2": 81.1,
+                                "tema2t2": 70.6,
+                                "trabajo2": 94.3,
+                                "notaTrabajos": 96.1,
+                                "notaPresentacion": 99.2,
+                                "notaTotal": 97.7
+                            }
+                        },
+                        {
+                            "id": "20250000006",
+                            "nombre": "Asdrubal",
+                            "notas": {
+                                "tema1t1": 95.1,
+                                "tema2t1": 96.0,
+                                "trabajo1": 88.5,
+                                "tema1t2": 70.9,
+                                "tema2t2": 82.5,
+                                "trabajo2": 71.6,
+                                "notaTrabajos": 80.0,
+                                "notaPresentacion": 85.7,
+                                "notaTotal": 82.8
                             }
                         }
                     ]

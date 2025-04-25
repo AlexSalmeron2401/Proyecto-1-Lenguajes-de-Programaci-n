@@ -1,33 +1,321 @@
 {
     "cursos": [
         {
-            "anio": 2022,
+            "anio": 2023,
             "id": "MA0101",
-            "nombre": "Mate General",
+            "nombre": "Metematica General",
             "semestre": 1,
             "tipo": "matematico",
             "profe": "2025000001"
         },
         {
-            "anio": 2022,
+            "anio": 2023,
             "id": "MA0101",
-            "nombre": "Intro",
+            "nombre": "Metematica General",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "MA1102",
+            "nombre": "Calculo diferencial e integral",
+            "semestre": 2,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "MA1102",
+            "nombre": "Calculo diferencial e integral",
+            "semestre": 2,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "MA1103",
+            "nombre": "Calculo y álgebra lineal",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "MA1103",
+            "nombre": "Calculo y álgebra lineal",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "MA2404",
+            "nombre": "Probabilidades",
+            "semestre": 2,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "MA2404",
+            "nombre": "Probabilidades",
+            "semestre": 2,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2025,
+            "id": "MA3405",
+            "nombre": "Estadística",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2025,
+            "id": "MA3405",
+            "nombre": "Estadística",
+            "semestre": 1,
+            "tipo": "matematico",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "IC1802",
+            "nombre": "Programacion",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "IC1802",
+            "nombre": "Programacion",
             "semestre": 1,
             "tipo": "carrera",
             "profe": "2025000002"
         },
         {
-            "anio": 2010,
-            "id": "Ingles1",
-            "nombre": "MA0102",
+            "anio": 2023,
+            "id": "IC2101",
+            "nombre": "Programacion orientada a objetos",
+            "semestre": 2,
+            "tipo": "carrera",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "IC2101",
+            "nombre": "Programacion orientada a objetos",
+            "semestre": 2,
+            "tipo": "carrera",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "IC3002",
+            "nombre": "Analisis de algoritmos",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "IC3002",
+            "nombre": "Analisis de algoritmos",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "IC4700",
+            "nombre": "Lenguajes de programacion",
+            "semestre": 2,
+            "tipo": "carrera",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "IC4700",
+            "nombre": "Lenguajes de programacion",
+            "semestre": 2,
+            "tipo": "carrera",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2025,
+            "id": "IC5701",
+            "nombre": "Compiladores e interpretes",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2025,
+            "id": "IC5701",
+            "nombre": "Compiladores e interpretes",
+            "semestre": 1,
+            "tipo": "carrera",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "CI0202",
+            "nombre": "Ingles Basico",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "CI0202",
+            "nombre": "Ingles Basico",
             "semestre": 1,
             "tipo": "ingles",
             "profe": "2025000002"
         },
         {
-            "anio": 2010,
-            "id": "Comunicacion",
-            "nombre": "LA0102",
+            "anio": 2023,
+            "id": "CI1230",
+            "nombre": "Ingles 1",
+            "semestre": 2,
+            "tipo": "ingles",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "CI1230",
+            "nombre": "Ingles 1",
+            "semestre": 2,
+            "tipo": "ingles",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "CI1231",
+            "nombre": "Ingles 2",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "CI1231",
+            "nombre": "Ingles 2",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "CI1232",
+            "nombre": "Ingles 3",
+            "semestre": 2,
+            "tipo": "ingles",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "CI1232",
+            "nombre": "Ingles 3",
+            "semestre": 2,
+            "tipo": "ingles",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2025,
+            "id": "CI1233",
+            "nombre": "Ingles 4",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2025,
+            "id": "CI1233",
+            "nombre": "Ingles 4",
+            "semestre": 1,
+            "tipo": "ingles",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "CI1106",
+            "nombre": "Comunicacion Escrita",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "CI1106",
+            "nombre": "Comunicacion Escrita",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2023,
+            "id": "CI1107",
+            "nombre": "Comunicacion Oral",
+            "semestre": 2,
+            "tipo": "otro",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2023,
+            "id": "CI1107",
+            "nombre": "Comunicacion Oral",
+            "semestre": 2,
+            "tipo": "otro",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "CS2101",
+            "nombre": "Ambiente Humano",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "CS2101",
+            "nombre": "Ambiente Humano",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2024,
+            "id": "CS3401",
+            "nombre": "Seminario de estudios filosoficos historicos",
+            "semestre": 2,
+            "tipo": "otro",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2024,
+            "id": "CS3401",
+            "nombre": "Seminario de estudios filosoficos historicos",
+            "semestre": 2,
+            "tipo": "otro",
+            "profe": "2025000002"
+        },
+        {
+            "anio": 2025,
+            "id": "AE4208",
+            "nombre": "Desarrollo de emprendedores",
+            "semestre": 1,
+            "tipo": "otro",
+            "profe": "2025000001"
+        },
+        {
+            "anio": 2025,
+            "id": "AE4208",
+            "nombre": "Desarrollo de emprendedores",
             "semestre": 1,
             "tipo": "otro",
             "profe": "2025000002"
